@@ -1,0 +1,9 @@
+﻿<Controls:MetroWindow x:Name="DownloadForm" x:Class="WinDroid_Universal_Android_Toolkit.DownloadWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Downloading Recoveries..." Loaded="Window_Loaded" Height="61" Width="220" TitleCaps="False" ShowMinButton="False" ShowMaxRestoreButton="False" ResizeMode="NoResize" EnableDWMDropShadow="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ProgressBar Name="progressBar" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" Height="13" />
+    </Grid>
+</Controls:MetroWindow>
