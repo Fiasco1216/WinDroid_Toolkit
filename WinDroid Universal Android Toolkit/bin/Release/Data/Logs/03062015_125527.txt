@@ -1,0 +1,42 @@
+System.Net.WebException: An exception occurred during a WebClient request. ---> System.IO.IOException: The process cannot access the file 'C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Data\Recoveries\Recovery1.img' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   at System.Net.WebClient.DownloadFileAsync(Uri address, String fileName, Object userToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at Microsoft.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccess(Task task)
+   at Microsoft.Runtime.CompilerServices.TaskAwaiter.ValidateEnd(Task task)
+   at WinDroid_Universal_Android_Toolkit.MainWindow.<phoneListBox_SelectionChanged>d__46.MoveNext() in c:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\MainWindow.xaml.cs:line 789
+ 
+12:52:08 PM[INFO]:Microsoft Windows NT 6.2.9200.0 64Bit
+12:52:08 PM[INFO]:WinDroid Universal Android Toolkit 2.2.0.0
+12:52:08 PM[INFO]:PresentationFramework 4.0.0.0
+12:52:08 PM[INFO]:MahApps.Metro 1.1.2.0
+12:52:08 PM[INFO]:System.Xaml 4.0.0.0
+12:52:08 PM[INFO]:mscorlib 4.0.0.0
+12:52:08 PM[INFO]:System 4.0.0.0
+12:52:08 PM[INFO]:AndroidLib 1.5.2.0
+12:52:08 PM[INFO]:PresentationCore 4.0.0.0
+12:52:08 PM[INFO]:System.Runtime 2.6.10.0
+12:52:08 PM[INFO]:System.Threading.Tasks 2.6.10.0
+12:52:08 PM[INFO]:Microsoft.Threading.Tasks 1.0.12.0
+12:52:08 PM[INFO]:mscorlib 2.0.5.0
+12:52:08 PM[INFO]:Microsoft.Threading.Tasks.Extensions.Desktop 1.0.168.0
+12:52:08 PM[INFO]:mscorlib 2.0.0.0
+12:52:08 PM[INFO]:WindowsBase 4.0.0.0
+12:52:08 PM[INFO]:AutoUpdater.NET 1.3.1.0
+12:52:08 PM[INFO]:Ionic.Zip 1.9.3.0
+12:52:08 PM[UPDATE]:AutoUpdater started.
+12:52:12 PM[DEVICE]:Detecting Device...
+12:52:13 PM[DEVICE]:No Device Found.
+12:53:09 PM[DEVICE]:Refresh button clicked.
+12:53:13 PM[DEVICE]:Detecting Device...
+12:53:13 PM[DEVICE]:No Device Found.
+12:55:25 PM[DOWNLOAD]:Recovery download queued.
+12:55:25 PM[DOWNLOAD]:Recovery download queued.
+12:55:25 PM[DOWNLOAD]:Recovery download queued.
+12:55:25 PM[DOWNLOAD]:Recovery download started.
+12:55:25 PM[DOWNLOAD]:Recovery download started.
+12:55:26 PM[DOWNLOAD]:Recovery download error.
+

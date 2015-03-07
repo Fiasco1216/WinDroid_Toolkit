@@ -1,0 +1,244 @@
+﻿<Controls:MetroWindow x:Name="MainForm" x:Class="WinDroid_Universal_Android_Toolkit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="WinDroid Universal Android Toolkit" Loaded="Window_Loaded" SizeToContent="Height" ShowMaxRestoreButton="False" TitleCaps="False" ResizeMode="CanMinimize" ShowIconOnTitleBar="True" WindowStartupLocation="CenterScreen" EnableDWMDropShadow="True" Width="489" Height="257" Icon="Icon.ico">
+    <Controls:MetroWindow.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <RoutedCommand x:Key="TogglePhoneCommand" />
+            <RoutedCommand x:Key="ToggleLogCommand" />
+            <RoutedCommand x:Key="SaveLogCommand" />
+        </ResourceDictionary>
+    </Controls:MetroWindow.Resources>
+    <Grid HorizontalAlignment="Left"  Width="478">
+        <TabControl Controls:TabControlHelper.IsUnderlined="True" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="12,2,0,0" Width="466">
+            <TabControl.Resources>
+                <Style TargetType="{x:Type TabPanel}">
+                    <Setter Property="HorizontalAlignment" Value="Center" />
+                </Style>
+            </TabControl.Resources>
+            <TabItem Header="Setup" HorizontalAlignment="Center">
+                <Grid Background="White">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="43*" />
+                        <ColumnDefinition Width="305*" />
+                    </Grid.ColumnDefinitions>
+                    <GroupBox Header="1. Unlock Bootloader" HorizontalAlignment="Left" Margin="0,5,0,-3" VerticalAlignment="Top" Height="130" Width="150" Grid.ColumnSpan="2">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button Name="gainSuperCIDButton" Content="Get SuperCID" IsEnabled="False" HorizontalAlignment="Center" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="gainSuperCIDButton_Click" />
+                            <Button Name="getTokenIDButton" Content="Get Token ID" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,56,10,0" Click="getTokenIDButton_Click" />
+                            <Button Name="unlockBootloaderButton" Content="Unlock Bootloader" IsEnabled="False" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="unlockBootloaderButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="2. Flash A Recovery" HorizontalAlignment="Right" Margin="0,5,155,-3" VerticalAlignment="Top" Height="130" Width="150" Grid.Column="1">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button Name="recovery1Button" Content="Option One" IsEnabled="False" HorizontalAlignment="Center" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="firstRecoveryButton_Click" />
+                            <Button Name="recovery2Button" Content="Option Two" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,56,10,0" Click="secondRecoveryButton_Click" />
+                            <Button Name="recovery3Button" Content="Option Three" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,86,10,0" Click="thirdRecoveryButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="3. Gain Root" HorizontalAlignment="Right" Margin="0,5,0,0" VerticalAlignment="Top" Height="70" Width="150" Grid.Column="1">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button x:Name="gainRootButton" Content="Flash SuperSU" IsEnabled="False" HorizontalAlignment="Right" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="gainRootButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <TextBlock Grid.Column="1" TextAlignment="Center" HorizontalAlignment="Left" Margin="251,82,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="150">
+                        Thanks for using WinDroid Universal Android Toolkit! Please consider <Hyperlink NavigateUri="http://forum.xda-developers.com/donatetome.php?u=4485224" RequestNavigate="Hyperlink_RequestNavigate">donating!</Hyperlink>
+                    </TextBlock>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Commands">
+                <Grid Background="White">
+                    <GroupBox Header="Reboot" HorizontalAlignment="Left" Margin="0,5,0,-3" VerticalAlignment="Top" Height="130" Width="150">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button x:Name="rebootButton" Content="Reboot" HorizontalAlignment="Center" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="rebootButton_Click" />
+                            <Button x:Name="rebootRecoveryButton" Content="Recovery" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,56,10,0" Click="rebootRecoveryButton_Click" />
+                            <Button x:Name="rebootBootloaderButton" Content="Bootloader" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="rebootBootloaderButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Flash" HorizontalAlignment="Left" Margin="155,5,0,-3" VerticalAlignment="Top" Height="130" Width="150">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button Name="flashKernelButton" Content="Flash Kernel" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,26,10,0" Click="flashKernelButton_Click" />
+                            <Button Name="flashRecoveryButton" Content="Flash Recovery" HorizontalAlignment="Center" Margin="8,56,10,0" VerticalAlignment="Top" Width="135" Click="flashRecoveryButton_Click" />
+                            <Button Name="sideloadROMButton" Content="Sideload ROM" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="sideloadROMButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Commands" HorizontalAlignment="Right" Margin="0,5,0,0" VerticalAlignment="Top" Height="130" Width="150">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button Name="pushFileButton" Content="Push File" HorizontalAlignment="Center" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="pushFileButton_Click" />
+                            <Button Name="installAppButton" Content="Install App" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,56,10,0" Click="installAppButton_Click" />
+                            <Button Name="relockBootloaderButton" Content="Relock Bootloader" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="relockBootloaderButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="About">
+                <Grid Background="White">
+                    <GroupBox Header="Information" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top" Height="130" Width="150">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button Name="helpButton" Content="Help" HorizontalAlignment="Center" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="helpButton_Click" />
+                            <Button Name="devicesButton" Content="Devices" HorizontalAlignment="Center" Margin="8,56,10,0" VerticalAlignment="Top" Width="135" Click="devicesButton_Click" />
+                            <Button Name="requestsButton" Content="Requests" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,86,10,0" Click="requestsButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Downloads" HorizontalAlignment="Left" Margin="155,5,0,0" VerticalAlignment="Top" Height="130" Width="150">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button x:Name="toolkitButton" Content="Toolkit" HorizontalAlignment="Center" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="toolkitButton_Click" />
+                            <Button x:Name="recoveriesButton" Content="Recoveries" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,56,10,0" Click="recoveriesButton_Click" />
+                            <Button x:Name="ruuButton" Content="HTC RUU's" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="ruuButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Contact" HorizontalAlignment="Right" Margin="155,5,0,-3" VerticalAlignment="Top" Height="130" Width="150">
+                        <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
+                            <Button Name="xdaButton" Content="XDA PM" HorizontalAlignment="Center" Margin="8,26,10,0" VerticalAlignment="Top" Width="135" Click="xdaButton_Click" />
+                            <Button Name="emailButton" Content="Email" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,56,10,0" Click="emailButton_Click" />
+                            <Button Name="twitterButton" Content="Twitter" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="twitterButton_Click" />
+                        </Grid>
+                    </GroupBox>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Ellipse Name="statusEllipse" VerticalAlignment="Bottom" HorizontalAlignment="Left" Fill="Red" Height="10" Width="10" Margin="14,0,0,12"></Ellipse>
+        <Label Name="statusLabel" Content="Offline" FontSize="20" FontWeight="SemiBold" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="24,0,0,1" Width="96"></Label>
+        <Button Name="refreshButton" Content="Refresh" VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="10" Width="52" Margin="0,0,4,6" Click="refreshButton_Click" />
+        <Rectangle Fill="CornflowerBlue" HorizontalAlignment="Center" Height="3" Margin="12,190,0,0" VerticalAlignment="Top" Width="461" />
+        <Controls:ProgressRing x:Name="workingSpinner" IsActive="False" Height="28" Width="28" Margin="150,197,154.1,4" />
+    </Grid>
+    <Controls:MetroWindow.RightWindowCommands>
+        <Controls:WindowCommands>
+            <Button Name ="logButton" Command="{StaticResource ToggleLogCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="16" Height="16"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill"
+                         Visual="{StaticResource appbar_paper}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </StackPanel>
+            </Button>
+            <Button Name ="settingsButton" Command="{StaticResource TogglePhoneCommand}">
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="16" Height="16"
+                   Fill="{Binding RelativeSource={RelativeSource AncestorType=Button}, Path=Foreground}">
+                        <Rectangle.OpacityMask>
+                            <VisualBrush Stretch="Fill"
+                         Visual="{StaticResource appbar_settings}" />
+                        </Rectangle.OpacityMask>
+                    </Rectangle>
+                </StackPanel>
+            </Button>
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.RightWindowCommands>
+
+    <Controls:MetroWindow.CommandBindings>
+        <CommandBinding Command="{StaticResource TogglePhoneCommand}" Executed="TogglePhoneCommand_Executed" />
+        <CommandBinding Command="{StaticResource ToggleLogCommand}" Executed="ToggleLogCommand_Executed" />
+        <CommandBinding Command="{StaticResource SaveLogCommand}" Executed="SaveLogCommand_Executed" />
+    </Controls:MetroWindow.CommandBindings>
+
+    <Controls:MetroWindow.Flyouts>
+        <Controls:FlyoutsControl>
+            <Controls:Flyout Name = "Settings2" Position="Top" Height="259" Theme="Accent">
+                <StackPanel Margin="10" VerticalAlignment="Stretch">
+                    <ListBox Name="phoneListBox" Height="178" Margin="-25,25,5,0" SelectionChanged="phoneListBox_SelectionChanged" ScrollViewer.VerticalScrollBarVisibility="Visible">
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Amaze</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Android One</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Butterfly</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Butterfly 2</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Butterfly S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 200</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 300</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 500</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 510</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 601</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 610</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 616</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 816</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 820</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire C</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire Eye</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire HD</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire SV</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire V</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire X</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid DNA</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible 2</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible 4G LTE</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO 3D</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO 4G</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO 4G LTE</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO Design</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO Shift 4G</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Explorer</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">First</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Find 7/7a</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">G Watch</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">G Watch R</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Galaxy Nexus</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Gear Live</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Mi 3</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto 360</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto E</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto G</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto G (2014)</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto Maxx</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto X</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto X (2014)</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">myTouch 4G Slide</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 4</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 5</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 6</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 7 (2012)</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 7 (2013)</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 9</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 10</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One E8</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One J</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M7</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M7 (Dual SIM)</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M8</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One Max</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One Mini</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One Mini 2</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One SV</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One V</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One VX</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One X</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One X+</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">OnePlus One</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Photon Q</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Redmi 1S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Redmi Note</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Rezound</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Sensation</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Sensation XL</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Smartwatch 3</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Vivid</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Wildfire</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Wildfire S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">YU Yureka</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">None</ListBoxItem>
+                    </ListBox>
+                    <TextBlock Name="PhoneTextBox" FontSize="15" Margin="-30,14,0,0" Text='Current Device: ' FontWeight="SemiBold" TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                </StackPanel>
+            </Controls:Flyout>
+            <Controls:Flyout Name="Log2" Position="Top" Height="259" Theme="Accent">
+                <StackPanel Margin="10" VerticalAlignment="Stretch">
+                    <ScrollViewer Height="170" Margin="-25,25,5,0">
+                        <TextBlock Name="logBox" Text="{Binding LogText}" VerticalAlignment="Stretch" />
+                    </ScrollViewer>
+                    <Button Margin="-25,15,5,0" Command="{StaticResource SaveLogCommand}">Save Log</Button>
+                </StackPanel>
+            </Controls:Flyout>
+        </Controls:FlyoutsControl>
+    </Controls:MetroWindow.Flyouts>
+</Controls:MetroWindow>

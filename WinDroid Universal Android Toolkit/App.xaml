@@ -1,0 +1,24 @@
+﻿<Application x:Class="WinDroid_Universal_Android_Toolkit.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml" />
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate x:Key="RecoveryDataTemplate" DataType="winDroidUniversalHtcToolkit:ConfigModel">
+                <TextBlock TextWrapping="Wrap" Text="{Binding Name}" />
+            </DataTemplate>
+            <DataTemplate x:Key="ActionSetDataTemplate" DataType="winDroidUniversalHtcToolkit:ActionSetModel">
+                <TextBlock TextWrapping="Wrap" Text="{Binding Description}" />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

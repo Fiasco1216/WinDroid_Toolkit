@@ -1,0 +1,81 @@
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\WinDroid Universal Android Toolkit.exe.config
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\WinDroid Universal Android Toolkit.csprojResolveAssemblyReference.cache
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\MainWindow.baml
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\Resources\Icons.baml
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\MainWindow.g.cs
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\Resources\Icons.g.cs
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\App.g.cs
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\WinDroid Universal Android Toolkit_MarkupCompile.cache
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\WinDroid Universal Android Toolkit.g.resources
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\WinDroid_Universal_Android_Toolkit.Properties.Resources.resources
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\WinDroid Universal Android Toolkit.csproj.GenerateResource.Cache
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\WinDroid Universal Android Toolkit.exe
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\WinDroid Universal Android Toolkit.pdb
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\WinDroid Universal Android Toolkit.exe
+c:\users\dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\WinDroid Universal Android Toolkit.pdb
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\obj\Release\App.baml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\AndroidLib.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\MahApps.Metro.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\AndroidLib.pdb
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\AndroidLib.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\MahApps.Metro.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Ionic.Zip.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Ionic.Zip.xml
+C:\Users\Dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\AutoUpdater.NET.dll
+C:\Users\Dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\AutoUpdater.NET.pdb
+C:\Users\Dylan\documents\visual studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\AutoUpdater.NET.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Microsoft.Threading.Tasks.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\System.IO.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\System.Runtime.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\System.Threading.Tasks.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Microsoft.Threading.Tasks.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\System.IO.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\System.Runtime.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid Universal Android Toolkit\WinDroid Universal Android Toolkit\bin\Release\System.Threading.Tasks.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\WinDroid Universal Android Toolkit.exe.config
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\WinDroid Universal Android Toolkit.exe
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\WinDroid Universal Android Toolkit.pdb
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\AndroidLib.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\AutoUpdater.NET.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Ionic.Zip.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\MahApps.Metro.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Microsoft.Threading.Tasks.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\System.IO.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\System.Runtime.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\System.Threading.Tasks.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\System.Windows.Interactivity.dll
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\AndroidLib.pdb
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\AndroidLib.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\AutoUpdater.NET.pdb
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\AutoUpdater.NET.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Ionic.Zip.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\MahApps.Metro.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Microsoft.Threading.Tasks.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\System.IO.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\System.Runtime.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\bin\Release\System.Threading.Tasks.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid Universal Android Toolkit.csproj.App.config
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid Universal Android Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\DownloadForm.baml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\MainWindow.baml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\Resources\Icons.baml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\App.baml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\DownloadForm.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\MainWindow.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\Resources\Icons.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\App.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid Universal Android Toolkit_MarkupCompile.cache
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid Universal Android Toolkit.g.resources
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid_Universal_Android_Toolkit.Properties.Resources.resources
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid Universal Android Toolkit.csproj.GenerateResource.Cache
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid Universal Android Toolkit.exe
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\WinDroid_Universal_Android_Toolkit\WinDroid_Universal_Android_Toolkit\obj\Release\WinDroid Universal Android Toolkit.pdb
