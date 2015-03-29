@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace WinDroid_Universal_HTC_Toolkit.Models
+namespace WinDroid_Universal_Android_Toolkit.Models
 {
     public sealed class LogModel : INotifyPropertyChanged
     {

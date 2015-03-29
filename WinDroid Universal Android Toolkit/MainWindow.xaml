@@ -178,6 +178,7 @@
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO Shift 4G</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Explorer</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">First</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Find 5</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Find 7/7a</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">G Watch</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">G Watch R</ListBoxItem>
@@ -186,6 +187,7 @@
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Mi 3</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto 360</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto E</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto E (2015)</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto G</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto G (2014)</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto Maxx</ListBoxItem>
@@ -199,12 +201,14 @@
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 7 (2013)</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 9</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 10</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus Player</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus S</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One E8</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One J</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One M7</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One M7 (Dual SIM)</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One M8</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M9</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One Max</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One Mini</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One Mini 2</ListBoxItem>
@@ -215,16 +219,24 @@
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One X</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">One X+</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">OnePlus One</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Oppo N1</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Oppo N3</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Oppo R819</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Photon Q</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Redmi 1S</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Redmi Note</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Rezound</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Sensation</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Sensation XL</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Shield</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Shield Tablet</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Smartwatch 3</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Tegra Note 7</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Vivid</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Wildfire</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">Wildfire S</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">XOLO Q1010i</ListBoxItem>
+                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Xoom</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">YU Yureka</ListBoxItem>
                         <ListBoxItem FontWeight="SemiBold" FontSize="16">None</ListBoxItem>
                     </ListBox>

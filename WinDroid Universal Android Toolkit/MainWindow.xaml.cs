@@ -15,7 +15,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Navigation;
-using WinDroid_Universal_HTC_Toolkit.Models;
+using WinDroid_Universal_Android_Toolkit.Models;
 
 namespace WinDroid_Universal_Android_Toolkit
 {
@@ -450,7 +450,14 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
-                    case "Find7/7a":
+                    case "Find 5":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Find 7/7a":
                         {
                             getTokenIDButton.IsEnabled = false;
                             unlockBootloaderButton.IsEnabled = false;
@@ -505,9 +512,18 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Moto E (2015)":
+                        {
+                            getTokenIDButton.Content = "Get Unlock Key";
+                        }
+                        break;
+
                     case "Moto G":
                         {
                             getTokenIDButton.Content = "Get Unlock Key";
+                            recovery1Button.Content = "Flash TWRP (3G)";
+                            recovery2Button.IsEnabled = true;
+                            recovery2Button.Content = "Flash TWRP (4G)";
                         }
                         break;
 
@@ -584,6 +600,14 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Nexus Player":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                            recovery1Button.IsEnabled = false;
+                            gainRootButton.Content = "Flash Root Image";
+                        }
+                        break;
+
                     case "Nexus S":
                         {
                             getTokenIDButton.IsEnabled = false;
@@ -640,11 +664,11 @@ namespace WinDroid_Universal_Android_Toolkit
 
                     case "One SV":
                         {
-                            recovery1Button.Content = "Flash TWRP (Europe)";
+                            recovery1Button.Content = "Flash TWRP (GSM)";
                             recovery2Button.IsEnabled = true;
-                            recovery2Button.Content = "Flash TWRP (Boost)";
+                            recovery2Button.Content = "Flash TWRP (LTE)";
                             recovery3Button.IsEnabled = true;
-                            recovery3Button.Content = "Flash TWRP (Cricket)";
+                            recovery3Button.Content = "Flash TWRP (Boost)";
                         }
                         break;
 
@@ -680,6 +704,27 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Oppo N1":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Oppo N3":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Oppo R819":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
                     case "Photon Q":
                         {
                             getTokenIDButton.Content = "Get Unlock Key";
@@ -703,7 +748,38 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Shield":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Shield Tablet":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
                     case "Smartwatch 3":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Tegra Note 7":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "XOLO Q1010i":
+                        {
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Xoom":
                         {
                             getTokenIDButton.IsEnabled = false;
                         }
@@ -954,6 +1030,14 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Find 5":
+                        {
+                            await DownloadRecoveries("Find_5", 1);
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
                     case "Find 7/7a":
                         {
                             await DownloadRecoveries("Find_7", 1);
@@ -1017,10 +1101,20 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Moto E (2015)":
+                        {
+                            await DownloadRecoveries("Moto_E_2015", 1);
+                            getTokenIDButton.Content = "Get Unlock Key";
+                        }
+                        break;
+
                     case "Moto G":
                         {
-                            await DownloadRecoveries("Moto_G", 1);
+                            await DownloadRecoveries("Moto_G", 2);
                             getTokenIDButton.Content = "Get Unlock Key";
+                            recovery1Button.Content = "Flash TWRP (3G)";
+                            recovery2Button.IsEnabled = true;
+                            recovery2Button.Content = "Flash TWRP (4G)";
                         }
                         break;
 
@@ -1114,6 +1208,15 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Nexus Player":
+                        {
+                            await DownloadRecoveries("Nexus_Player", 1);
+                            getTokenIDButton.IsEnabled = false;
+                            recovery1Button.IsEnabled = false;
+                            gainRootButton.Content = "Flash Root Image";
+                        }
+                        break;
+
                     case "Nexus S":
                         {
                             await DownloadRecoveries("Nexus_S", 1);
@@ -1168,6 +1271,12 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "One M9":
+                        {
+                            await DownloadRecoveries("One_M9", 1);
+                        }
+                        break;
+
                     case "One Max":
                         {
                             await DownloadRecoveries("One_Max", 2);
@@ -1201,11 +1310,11 @@ namespace WinDroid_Universal_Android_Toolkit
                     case "One SV":
                         {
                             await DownloadRecoveries("One_SV", 3);
-                            recovery1Button.Content = "Flash TWRP (Europe)";
+                            recovery1Button.Content = "Flash TWRP (GSM)";
                             recovery2Button.IsEnabled = true;
-                            recovery2Button.Content = "Flash TWRP (Boost)";
+                            recovery2Button.Content = "Flash TWRP (LTE)";
                             recovery3Button.IsEnabled = true;
-                            recovery3Button.Content = "Flash TWRP (Cricket)";
+                            recovery3Button.Content = "Flash TWRP (Boost)";
                         }
                         break;
 
@@ -1249,6 +1358,30 @@ namespace WinDroid_Universal_Android_Toolkit
                         {
                             await DownloadRecoveries("OnePlus_One", 1);
                             getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Oppo N1":
+                        {
+                            await DownloadRecoveries("Oppo_N1", 1);
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Oppo N3":
+                        {
+                            await DownloadRecoveries("Oppo_N3", 1);
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Oppo R819":
+                        {
+                            await DownloadRecoveries("Oppo_R819", 1);
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
                         }
                         break;
 
@@ -1296,9 +1429,30 @@ namespace WinDroid_Universal_Android_Toolkit
                         }
                         break;
 
+                    case "Shield":
+                        {
+                            await DownloadRecoveries("Shield", 1);
+                            getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Shield Tablet":
+                        {
+                            await DownloadRecoveries("Shield_Tablet", 1);
+                            getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
                     case "Smartwatch 3":
                         {
                             await DownloadRecoveries("Smartwatch_3", 1);
+                            getTokenIDButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Tegra Note 7":
+                        {
+                            await DownloadRecoveries("Tegra_Note_7", 1);
                             getTokenIDButton.IsEnabled = false;
                         }
                         break;
@@ -1318,6 +1472,21 @@ namespace WinDroid_Universal_Android_Toolkit
                     case "Wildfire S":
                         {
                             await DownloadRecoveries("Wildfire_S", 1);
+                        }
+                        break;
+
+                    case "XOLO Q1010i":
+                        {
+                            await DownloadRecoveries("XOLO_Q1010i", 1);
+                            getTokenIDButton.IsEnabled = false;
+                            unlockBootloaderButton.IsEnabled = false;
+                        }
+                        break;
+
+                    case "Xoom":
+                        {
+                            await DownloadRecoveries("Xoom", 1);
+                            getTokenIDButton.IsEnabled = false;
                         }
                         break;
 
@@ -1482,7 +1651,7 @@ namespace WinDroid_Universal_Android_Toolkit
             try
             {
                 string device = Properties.Settings.Default["Device"].ToString();
-                if (device == "Moto E" || device == "Moto G" || device == "Moto G (2014)" || device == "Moto Maxx" || device == "Moto X" || device == "Moto X (2014)" || device == "Photon Q")
+                if (device == "Moto E" || device == "Moto E (2015)" || device == "Moto G" || device == "Moto G (2014)" || device == "Moto Maxx" || device == "Moto X" || device == "Moto X (2014)" || device == "Photon Q")
                 {
                     MotorolaUnlockKey();
                 }
@@ -1831,11 +2000,11 @@ namespace WinDroid_Universal_Android_Toolkit
                         Log.AddLogItem("Sunshine website opened.", "DROIDDNA");
                     }
                 }
-                else if (device == "Moto E" || device == "Moto G" || device == "Moto G (2014)" || device == "Moto Maxx" || device == "Moto X" || device == "Moto X (2014)" || device == "Photon Q")
+                else if (device == "Moto E" || device == "Moto E (2015)" || device == "Moto G" || device == "Moto G (2014)" || device == "Moto Maxx" || device == "Moto X" || device == "Moto X (2014)" || device == "Photon Q")
                 {
                     MotorolaUnlock();
                 }
-                else if (device == "Android One" || device == "G Watch" || device == "G Watch R" || device == "Galaxy Nexus" || device == "Gear Live" || device == "Moto 360" || device == "Nexus 4" || device == "Nexus 5" || device == "Nexus 6" || device == "Nexus 7 (2012)" || device == "Nexus 7 (2013)" || device == "Nexus 9" || device == "Nexus 10" || device == "Nexus S" || device == "OnePlus One" || device == "Smartwatch 3" || device == "YU Yureka")
+                else if (device == "Android One" || device == "G Watch" || device == "G Watch R" || device == "Galaxy Nexus" || device == "Gear Live" || device == "Moto 360" || device == "Nexus 4" || device == "Nexus 5" || device == "Nexus 6" || device == "Nexus 7 (2012)" || device == "Nexus 7 (2013)" || device == "Nexus 9" || device == "Nexus 10" || device == "Nexus Player" || device == "Nexus S" || device == "OnePlus One" || device == "Shield" || device == "Shield Tablet" || device == "Smartwatch 3" || device == "Tegra Note 7" || device == "Xoom" || device == "YU Yureka")
                 {
                     AOSPDeviceUnlock();
                 }
@@ -1925,6 +2094,7 @@ namespace WinDroid_Universal_Android_Toolkit
 
         private async void AOSPDeviceUnlock()
         {
+            string device = Properties.Settings.Default["Device"].ToString();
             var mySettings = new MetroDialogSettings()
             {
                 AffirmativeButtonText = "Yes",
@@ -1951,12 +2121,25 @@ namespace WinDroid_Universal_Android_Toolkit
                     controller.SetTitle("Unlocking Bootloader...");
                     controller.SetMessage("Your device will now display a screen asking you about unlocking. Use your volume buttons to choose Yes, then press the power button confirm. Once you've done this, click 'Ok'.");
                     await TaskEx.Run(() => Fastboot.ExecuteFastbootCommandNoReturn(Fastboot.FormFastbootCommand(_device, "oem", "unlock")));
-                    Log.AddLogItem("Unlocking bootloader.", "AOSPUNLOCK");
-                    await TaskEx.Run(() => UpdateDevice());
-                    await TaskEx.Run(() => _android.Dispose());
-                    await controller.CloseAsync();
-                    await this.ShowMessageAsync("Next Step!", "Your bootloader is now unlocked, and your device will reboot! You can now move on to Step 2, flashing a recovery. Please ensure you re-enable USB Debugging.", MessageDialogStyle.Affirmative);
-                    Log.AddLogItem("Bootloader unlock successful.", "AOSPUNLOCK");
+                    if (device == "Nexus Player")
+                    {
+                        await TaskEx.Run(() => Fastboot.ExecuteFastbootCommandNoReturn(Fastboot.FormFastbootCommand(_device, "oem", "unlock")));
+                        Log.AddLogItem("Unlocking bootloader.", "ATVUNLOCK");
+                        await TaskEx.Run(() => UpdateDevice());
+                        await TaskEx.Run(() => _android.Dispose());
+                        await controller.CloseAsync();
+                        await this.ShowMessageAsync("Next Step!", "Your bootloader is now unlocked, and your device will reboot! You can now move on to Step 2, flashing a recovery. Please ensure you re-enable USB Debugging.", MessageDialogStyle.Affirmative);
+                        Log.AddLogItem("Bootloader unlock successful.", "ATVUNLOCK");
+                    }
+                    else
+                    {
+                        Log.AddLogItem("Unlocking bootloader.", "AOSPUNLOCK");
+                        await TaskEx.Run(() => UpdateDevice());
+                        await TaskEx.Run(() => _android.Dispose());
+                        await controller.CloseAsync();
+                        await this.ShowMessageAsync("Next Step!", "Your bootloader is now unlocked, and your device will reboot! You can now move on to Step 2, flashing a recovery. Please ensure you re-enable USB Debugging.", MessageDialogStyle.Affirmative);
+                        Log.AddLogItem("Bootloader unlock successful.", "AOSPUNLOCK");
+                    }
                 }
                 else if (statusLabel.Content.ToString() == "Fastboot")
                 {
@@ -1966,12 +2149,25 @@ namespace WinDroid_Universal_Android_Toolkit
                     controller.SetTitle("Unlocking Bootloader...");
                     controller.SetMessage("Your device will now display a screen asking you about unlocking. Use your volume buttons to choose Yes, then press the power button confirm. Once you've done this, click 'Ok'.");
                     await TaskEx.Run(() => Fastboot.ExecuteFastbootCommandNoReturn(Fastboot.FormFastbootCommand(_device, "oem", "unlock")));
-                    Log.AddLogItem("Unlocking bootloader.", "AOSPUNLOCK");
-                    await TaskEx.Run(() => UpdateDevice());
-                    await TaskEx.Run(() => _android.Dispose());
-                    await controller.CloseAsync();
-                    await this.ShowMessageAsync("Next Step!", "Your bootloader is now unlocked, and your device will reboot! You can now move on to Step 2, flashing a recovery. Please ensure you re-enable USB Debugging.", MessageDialogStyle.Affirmative);
-                    Log.AddLogItem("Bootloader unlock successful.", "AOSPUNLOCK");
+                    if (device == "Nexus Player")
+                    {
+                        await TaskEx.Run(() => Fastboot.ExecuteFastbootCommandNoReturn(Fastboot.FormFastbootCommand(_device, "oem", "unlock")));
+                        Log.AddLogItem("Unlocking bootloader.", "ATVUNLOCK");
+                        await TaskEx.Run(() => UpdateDevice());
+                        await TaskEx.Run(() => _android.Dispose());
+                        await controller.CloseAsync();
+                        await this.ShowMessageAsync("Next Step!", "Your bootloader is now unlocked, and your device will reboot! You can now move on to Step 2, flashing a recovery. Please ensure you re-enable USB Debugging.", MessageDialogStyle.Affirmative);
+                        Log.AddLogItem("Bootloader unlock successful.", "ATVUNLOCK");
+                    }
+                    else
+                    {
+                        Log.AddLogItem("Unlocking bootloader.", "AOSPUNLOCK");
+                        await TaskEx.Run(() => UpdateDevice());
+                        await TaskEx.Run(() => _android.Dispose());
+                        await controller.CloseAsync();
+                        await this.ShowMessageAsync("Next Step!", "Your bootloader is now unlocked, and your device will reboot! You can now move on to Step 2, flashing a recovery. Please ensure you re-enable USB Debugging.", MessageDialogStyle.Affirmative);
+                        Log.AddLogItem("Bootloader unlock successful.", "AOSPUNLOCK");
+                    }
                 }
                 else
                 {
@@ -2215,14 +2411,14 @@ namespace WinDroid_Universal_Android_Toolkit
                         Desire610Root();
                     }
                 }
-                else if (device == "Moto X (2014)")
+                else if (device == "Moto X (2014)" || device == "Nexus Player")
                 {
-                    Log.AddLogItem("Moto X (2014) root command started.", "ROOT");
+                    Log.AddLogItem("Boot root command started.", "ROOT");
                     MessageDialogResult result = await this.ShowMessageAsync("Ready To Root?", "This command will download the rooted boot image, reboot you device into fastboot, then flash the rooted boot image. Are you ready to continue?",
                         MessageDialogStyle.AffirmativeAndNegative, mySettings);
                     if (result == MessageDialogResult.Affirmative)
                     {
-                        MotoX2014Root();
+                        BootRoot();
                     }
                 }
                 else
@@ -2376,9 +2572,17 @@ namespace WinDroid_Universal_Android_Toolkit
             }
         }
 
-        private async void MotoX2014Root()
+        private async void BootRoot()
         {
-            await DownloadFile("Moto X (2014) Root Image", "https://basketbuild.com/dl/devs?dev=WindyCityRockr&dl=WindyCityRockr/WinDroid_Universal_Android_Toolkit/Phones/Moto_X_2014/Root.img", "./Root.img");
+            string device = Properties.Settings.Default["Device"].ToString();
+            if (device == "Moto X (2014)")
+            {
+                await DownloadFile("Moto X (2014) Root Image", "https://basketbuild.com/dl/devs?dev=WindyCityRockr&dl=WindyCityRockr/WinDroid_Universal_Android_Toolkit/Phones/Moto_X_2014/Root.img", "./Root.img");
+            }
+            else if (device == "Nexus Player")
+            {
+                await DownloadFile("Nexus Player Root Image", "https://basketbuild.com/dl/devs?dev=WindyCityRockr&dl=WindyCityRockr/WinDroid_Universal_Android_Toolkit/Phones/Nexus_Player/Root.img", "./Root.img");
+            }
             var controller9 = await this.ShowProgressAsync("Checking Device...", "");
             await TaskEx.Run(() => UpdateDevice());
             await controller9.CloseAsync();
