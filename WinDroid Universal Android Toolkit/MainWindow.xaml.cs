@@ -2308,6 +2308,7 @@ namespace WinDroid_Universal_Android_Toolkit
         {
             if (File.Exists("./Data/Recoveries/" + recovery))
             {
+                string device = Properties.Settings.Default["Device"].ToString();
                 var mySettings = new MetroDialogSettings()
                 {
                     AffirmativeButtonText = "Yes",
@@ -2328,8 +2329,16 @@ namespace WinDroid_Universal_Android_Toolkit
                         var controller = await this.ShowProgressAsync("Waiting For Device...", "");
                         await TaskEx.Run(() => _android.WaitForDevice());
                         controller.SetTitle("Rebooting Device...");
-                        await TaskEx.Run(() => _device.RebootBootloader());
-                        Log.AddLogItem("Rebooting device to bootloader.", "RECOVERY");
+                        if (device == "One M9")
+                        {
+                            await TaskEx.Run(() => Adb.ExecuteAdbCommandNoReturn(Adb.FormAdbCommand("reboot download")));
+                            Log.AddLogItem("Rebooting device to download mode.", "RECOVERY M9");
+                        }
+                        else
+                        {
+                            await TaskEx.Run(() => _device.RebootBootloader());
+                            Log.AddLogItem("Rebooting device to bootloader.", "RECOVERY");
+                        }
                         await TaskEx.Run(() => _android.WaitForDevice());
                         controller.SetTitle("Flashing TWRP...");
                         await TaskEx.Run(() => Fastboot.ExecuteFastbootCommandNoReturn(Fastboot.FormFastbootCommand(_device, "flash", "recovery " + "./Data/Recoveries/" + recovery)));
@@ -2902,6 +2911,7 @@ namespace WinDroid_Universal_Android_Toolkit
         {
             try
             {
+                string device = Properties.Settings.Default["Device"].ToString();
                 var mySettings = new MetroDialogSettings()
                 {
                     AffirmativeButtonText = "Yes",
@@ -2927,8 +2937,16 @@ namespace WinDroid_Universal_Android_Toolkit
                             var controller = await this.ShowProgressAsync("Waiting For Device...", "");
                             await TaskEx.Run(() => _android.WaitForDevice());
                             controller.SetTitle("Rebooting Device...");
-                            await TaskEx.Run(() => _device.RebootBootloader());
-                            Log.AddLogItem("Rebooting device to bootloader.", "RECOVERY");
+                            if (device == "One M9")
+                            {
+                                await TaskEx.Run(() => Adb.ExecuteAdbCommandNoReturn(Adb.FormAdbCommand("reboot download")));
+                                Log.AddLogItem("Rebooting device to download mode.", "RECOVERY M9");
+                            }
+                            else
+                            {
+                                await TaskEx.Run(() => _device.RebootBootloader());
+                                Log.AddLogItem("Rebooting device to bootloader.", "RECOVERY");
+                            }
                             await TaskEx.Run(() => _android.WaitForDevice());
                             controller.SetTitle("Flashing Recovery...");
                             await TaskEx.Run(() => Fastboot.ExecuteFastbootCommandNoReturn(Fastboot.FormFastbootCommand(_device, "flash", "recovery " + ofd.FileName)));
