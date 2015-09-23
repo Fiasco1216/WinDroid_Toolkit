@@ -28,7 +28,7 @@
         </member>
         <member name="T:RegawMOD.Android.AAPT.Badging">
             <summary>
-            Contains Apk Badging Dump Information
+            Contains Apk Badging Dump Information 
             </summary>
         </member>
         <member name="P:RegawMOD.Android.AAPT.Badging.Source">
@@ -145,67 +145,67 @@
             </summary>
         </member>
         <member name="M:RegawMOD.Android.Adb.FormAdbCommand(System.String,System.Object[])">
-             <summary>
-             Forms an <see cref="T:RegawMOD.Android.AdbCommand"/> that is passed to <c>Adb.ExecuteAdbCommand()</c>
-             </summary>
-             <remarks><para>This should only be used for non device-specific Adb commands, such as <c>adb devices</c> or <c>adb version</c>.</para>
-             <para>Never try to start/kill the running Adb Server, as the <see cref="T:RegawMOD.Android.AndroidController"/> type handles it internally.</para></remarks>
-             <param name="command">The command to run on the Adb Server</param>
-             <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
-             <returns><see cref="T:RegawMOD.Android.AdbCommand"/> that contains formatted command information</returns>
-             <example>This example demonstrates how to create an <see cref="T:RegawMOD.Android.AdbCommand"/>
-             <code>
-             //This example shows how to create an AdbCommand object to execute on the running server.
-             //The command we will create is "adb devices".
-             //Notice how in the formation, you don't supply the prefix "adb", because the method takes care of it for you.
+            <summary>
+            Forms an <see cref="T:RegawMOD.Android.AdbCommand"/> that is passed to <c>Adb.ExecuteAdbCommand()</c>
+            </summary>
+            <remarks><para>This should only be used for non device-specific Adb commands, such as <c>adb devices</c> or <c>adb version</c>.</para>
+            <para>Never try to start/kill the running Adb Server, as the <see cref="T:RegawMOD.Android.AndroidController"/> type handles it internally.</para></remarks>
+            <param name="command">The command to run on the Adb Server</param>
+            <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
+            <returns><see cref="T:RegawMOD.Android.AdbCommand"/> that contains formatted command information</returns>
+            <example>This example demonstrates how to create an <see cref="T:RegawMOD.Android.AdbCommand"/>
+            <code>
+            //This example shows how to create an AdbCommand object to execute on the running server.
+            //The command we will create is "adb devices".  
+            //Notice how in the formation, you don't supply the prefix "adb", because the method takes care of it for you.
             
-             AdbCommand adbCmd = Adb.FormAdbCommand("devices");
+            AdbCommand adbCmd = Adb.FormAdbCommand("devices");
             
-             </code>
-             </example>
+            </code>
+            </example>
         </member>
         <member name="M:RegawMOD.Android.Adb.FormAdbCommand(RegawMOD.Android.Device,System.String,System.Object[])">
-             <summary>
-             Forms an <see cref="T:RegawMOD.Android.AdbCommand"/> that is passed to <c>Adb.ExecuteAdbCommand()</c>
-             </summary>
-             <remarks>This should only be used for device-specific Adb commands, such as <c>adb push</c> or <c>adb pull</c>.</remarks>
-             <param name="device">Specific <see cref="T:RegawMOD.Android.Device"/> to run the command on</param>
-             <param name="command">The command to run on the Adb Server</param>
-             <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
-             <returns><see cref="T:RegawMOD.Android.AdbCommand"/> that contains formatted command information</returns>
-             <example>This example demonstrates how to create an <see cref="T:RegawMOD.Android.AdbCommand"/>
-             <code>//This example shows how to create an AdbCommand object to execute on the running server.
-             //The command we will create is "adb pull /system/app C:\".
-             //Notice how in the formation, you don't supply the prefix "adb", because the method takes care of it for you.
-             //This example also assumes you have a Device instance named device.
+            <summary>
+            Forms an <see cref="T:RegawMOD.Android.AdbCommand"/> that is passed to <c>Adb.ExecuteAdbCommand()</c>
+            </summary>
+            <remarks>This should only be used for device-specific Adb commands, such as <c>adb push</c> or <c>adb pull</c>.</remarks>
+            <param name="device">Specific <see cref="T:RegawMOD.Android.Device"/> to run the command on</param>
+            <param name="command">The command to run on the Adb Server</param>
+            <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
+            <returns><see cref="T:RegawMOD.Android.AdbCommand"/> that contains formatted command information</returns>
+            <example>This example demonstrates how to create an <see cref="T:RegawMOD.Android.AdbCommand"/>
+            <code>//This example shows how to create an AdbCommand object to execute on the running server.
+            //The command we will create is "adb pull /system/app C:\".  
+            //Notice how in the formation, you don't supply the prefix "adb", because the method takes care of it for you.
+            //This example also assumes you have a Device instance named device.
             
-             AdbCommand adbCmd = Adb.FormAdbCommand(device, "pull", "/system/app", @"C:\");
+            AdbCommand adbCmd = Adb.FormAdbCommand(device, "pull", "/system/app", @"C:\");
             
-             </code>
-             </example>
+            </code>
+            </example>
         </member>
         <member name="M:RegawMOD.Android.Adb.FormAdbShellCommand(RegawMOD.Android.Device,System.Boolean,System.String,System.Object[])">
-             <summary>
-             Forms an <see cref="T:RegawMOD.Android.AdbCommand"/> that is passed to <c>Adb.ExecuteAdbCommand()</c>
-             </summary>
-             <param name="device">Specific <see cref="T:RegawMOD.Android.Device"/> to run the command on</param>
-             <param name="rootShell">Specifies if you need <paramref name="executable"/> to run in a root shell</param>
-             <param name="executable">Executable file on <paramref name="device"/> to execute</param>
-             <param name="args">Any arguments that need to be sent to <paramref name="executable"/></param>
-             <returns><see cref="T:RegawMOD.Android.AdbCommand"/> that contains formatted command information</returns>
-             <remarks>This should only be used for Adb Shell commands, such as <c>adb shell getprop</c> or <c>adb shell dumpsys</c>.</remarks>
-             <exception cref="T:RegawMOD.Android.DeviceHasNoRootException"> if <paramref name="device"/> does not have root</exception>
-             <example>This example demonstrates how to create an <see cref="T:RegawMOD.Android.AdbCommand"/>
-             <code>
-             //This example shows how to create an AdbCommand object to execute on the running server.
-             //The command we will create is "adb shell input keyevent KeyEventCode.HOME".
-             //Notice how in the formation, you don't supply the prefix "adb", because the method takes care of it for you.
-             //This example also assumes you have a Device instance named device.
+            <summary>
+            Forms an <see cref="T:RegawMOD.Android.AdbCommand"/> that is passed to <c>Adb.ExecuteAdbCommand()</c>
+            </summary>
+            <param name="device">Specific <see cref="T:RegawMOD.Android.Device"/> to run the command on</param>
+            <param name="rootShell">Specifies if you need <paramref name="executable"/> to run in a root shell</param>
+            <param name="executable">Executable file on <paramref name="device"/> to execute</param>
+            <param name="args">Any arguments that need to be sent to <paramref name="executable"/></param>
+            <returns><see cref="T:RegawMOD.Android.AdbCommand"/> that contains formatted command information</returns>
+            <remarks>This should only be used for Adb Shell commands, such as <c>adb shell getprop</c> or <c>adb shell dumpsys</c>.</remarks>
+            <exception cref="T:RegawMOD.Android.DeviceHasNoRootException"> if <paramref name="device"/> does not have root</exception>
+            <example>This example demonstrates how to create an <see cref="T:RegawMOD.Android.AdbCommand"/>
+            <code>
+            //This example shows how to create an AdbCommand object to execute on the running server.
+            //The command we will create is "adb shell input keyevent KeyEventCode.HOME".
+            //Notice how in the formation, you don't supply the prefix "adb", because the method takes care of it for you.
+            //This example also assumes you have a Device instance named device.
             
-             AdbCommand adbCmd = Adb.FormAdbCommand(device, true, "input", "keyevent", (int)KeyEventCode.HOME);
+            AdbCommand adbCmd = Adb.FormAdbCommand(device, true, "input", "keyevent", (int)KeyEventCode.HOME);
             
-             </code>
-             </example>
+            </code>
+            </example>
         </member>
         <member name="M:RegawMOD.Android.Adb.ExecuteAdbShellCommandInputString(RegawMOD.Android.Device,System.String[])">
             <summary>
@@ -248,6 +248,11 @@
             <param name="command">Instance of <see cref="T:RegawMOD.Android.AdbCommand"/></param>
             <returns>Exit code of the process</returns>
         </member>
+        <member name="P:RegawMOD.Android.Adb.ServerRunning">
+            <summary>
+            Gets a value indicating if an Android Debug Bridge Server is currently running.
+            </summary>
+        </member>
         <member name="M:RegawMOD.Android.Adb.PortForward(RegawMOD.Android.Device,System.Int32,System.Int32)">
             <summary>
             Forwards a port that remains until the current <see cref="T:RegawMOD.Android.AndroidController"/> instance is Disposed, or the device is unplugged
@@ -258,21 +263,10 @@
             <param name="remotePort">Remote port number</param>
             <returns>True if successful, false if unsuccessful</returns>
         </member>
-        <member name="P:RegawMOD.Android.Adb.ServerRunning">
-            <summary>
-            Gets a value indicating if an Android Debug Bridge Server is currently running.
-            </summary>
-        </member>
         <member name="T:RegawMOD.Android.BusyBox">
             <summary>
             Conatins information about device's busybox
             </summary>
-        </member>
-        <member name="M:RegawMOD.Android.BusyBox.Update">
-            <summary>
-            Updates the instance of busybox
-            </summary>
-            <remarks>Generally called only if busybox may have changed on the device</remarks>
         </member>
         <member name="P:RegawMOD.Android.BusyBox.IsInstalled">
             <summary>
@@ -289,22 +283,16 @@
             Gets a <c>List&lt;string&gt;</c> containing busybox's commands
             </summary>
         </member>
+        <member name="M:RegawMOD.Android.BusyBox.Update">
+            <summary>
+            Updates the instance of busybox
+            </summary>
+            <remarks>Generally called only if busybox may have changed on the device</remarks>
+        </member>
         <member name="T:RegawMOD.Android.BatteryInfo">
             <summary>
             Contains information about connected Android device's battery
             </summary>
-        </member>
-        <member name="M:RegawMOD.Android.BatteryInfo.#ctor(RegawMOD.Android.Device)">
-            <summary>
-            Initializes a new instance of the BatteryInfo class
-            </summary>
-            <param name="device">Serial number of Android device</param>
-        </member>
-        <member name="M:RegawMOD.Android.BatteryInfo.ToString">
-            <summary>
-            Returns a formatted string object containing all battery stats
-            </summary>
-            <returns>A formatted string containing all battery stats</returns>
         </member>
         <member name="P:RegawMOD.Android.BatteryInfo.ACPower">
             <summary>
@@ -361,6 +349,18 @@
             Gets a value indicating the battery's technology
             </summary>
         </member>
+        <member name="M:RegawMOD.Android.BatteryInfo.#ctor(RegawMOD.Android.Device)">
+            <summary>
+            Initializes a new instance of the BatteryInfo class
+            </summary>
+            <param name="device">Serial number of Android device</param>
+        </member>
+        <member name="M:RegawMOD.Android.BatteryInfo.ToString">
+            <summary>
+            Returns a formatted string object containing all battery stats
+            </summary>
+            <returns>A formatted string containing all battery stats</returns>
+        </member>
         <member name="T:RegawMOD.Android.Device">
             <summary>
             Manages connected Android device's info and commands
@@ -371,6 +371,58 @@
             Initializes a new instance of the Device class
             </summary>
             <param name="deviceSerial">Serial number of Android device</param>
+        </member>
+        <member name="P:RegawMOD.Android.Device.Battery">
+            <summary>
+            Gets the device's <see cref="T:RegawMOD.Android.BatteryInfo"/> instance
+            </summary>
+            <remarks>See <see cref="T:RegawMOD.Android.BatteryInfo"/> for more details</remarks>
+        </member>
+        <member name="P:RegawMOD.Android.Device.BuildProp">
+            <summary>
+            Gets the device's <see cref="P:RegawMOD.Android.Device.BuildProp"/> instance
+            </summary>
+            <remarks>See <see cref="P:RegawMOD.Android.Device.BuildProp"/> for more details</remarks>
+        </member>
+        <member name="P:RegawMOD.Android.Device.BusyBox">
+            <summary>
+            Gets the device's <see cref="P:RegawMOD.Android.Device.BusyBox"/> instance
+            </summary>
+            <remarks>See <see cref="P:RegawMOD.Android.Device.BusyBox"/> for more details</remarks>
+        </member>
+        <member name="P:RegawMOD.Android.Device.FileSystem">
+            <summary>
+            Gets the device's <see cref="P:RegawMOD.Android.Device.FileSystem"/> instance
+            </summary>
+            <remarks>See <see cref="P:RegawMOD.Android.Device.FileSystem"/> for more details</remarks>
+        </member>
+        <member name="P:RegawMOD.Android.Device.Phone">
+            <summary>
+            Gets the device's <see cref="P:RegawMOD.Android.Device.Phone"/> instance
+            </summary>
+            <remarks>See <see cref="P:RegawMOD.Android.Device.Phone"/> for more details</remarks>
+        </member>
+        <member name="P:RegawMOD.Android.Device.Su">
+            <summary>
+            Gets the device's <see cref="P:RegawMOD.Android.Device.Su"/> instance
+            </summary>
+            <remarks>See <see cref="P:RegawMOD.Android.Device.Su"/> for more details</remarks>
+        </member>
+        <member name="P:RegawMOD.Android.Device.SerialNumber">
+            <summary>
+            Gets the device's serial number
+            </summary>
+        </member>
+        <member name="P:RegawMOD.Android.Device.State">
+            <summary>
+            Gets a value indicating the device's current state
+            </summary>
+            <remarks>See <see cref="T:RegawMOD.Android.DeviceState"/> for more details</remarks>
+        </member>
+        <member name="P:RegawMOD.Android.Device.HasRoot">
+            <summary>
+            Gets a value indicating if the device has root
+            </summary>
         </member>
         <member name="M:RegawMOD.Android.Device.FastbootReboot">
             <summary>
@@ -432,58 +484,6 @@
             Updates all values in current instance of <see cref="T:RegawMOD.Android.Device"/>
             </summary>
         </member>
-        <member name="P:RegawMOD.Android.Device.Battery">
-            <summary>
-            Gets the device's <see cref="T:RegawMOD.Android.BatteryInfo"/> instance
-            </summary>
-            <remarks>See <see cref="T:RegawMOD.Android.BatteryInfo"/> for more details</remarks>
-        </member>
-        <member name="P:RegawMOD.Android.Device.BuildProp">
-            <summary>
-            Gets the device's <see cref="P:RegawMOD.Android.Device.BuildProp"/> instance
-            </summary>
-            <remarks>See <see cref="P:RegawMOD.Android.Device.BuildProp"/> for more details</remarks>
-        </member>
-        <member name="P:RegawMOD.Android.Device.BusyBox">
-            <summary>
-            Gets the device's <see cref="P:RegawMOD.Android.Device.BusyBox"/> instance
-            </summary>
-            <remarks>See <see cref="P:RegawMOD.Android.Device.BusyBox"/> for more details</remarks>
-        </member>
-        <member name="P:RegawMOD.Android.Device.FileSystem">
-            <summary>
-            Gets the device's <see cref="P:RegawMOD.Android.Device.FileSystem"/> instance
-            </summary>
-            <remarks>See <see cref="P:RegawMOD.Android.Device.FileSystem"/> for more details</remarks>
-        </member>
-        <member name="P:RegawMOD.Android.Device.Phone">
-            <summary>
-            Gets the device's <see cref="P:RegawMOD.Android.Device.Phone"/> instance
-            </summary>
-            <remarks>See <see cref="P:RegawMOD.Android.Device.Phone"/> for more details</remarks>
-        </member>
-        <member name="P:RegawMOD.Android.Device.Su">
-            <summary>
-            Gets the device's <see cref="P:RegawMOD.Android.Device.Su"/> instance
-            </summary>
-            <remarks>See <see cref="P:RegawMOD.Android.Device.Su"/> for more details</remarks>
-        </member>
-        <member name="P:RegawMOD.Android.Device.SerialNumber">
-            <summary>
-            Gets the device's serial number
-            </summary>
-        </member>
-        <member name="P:RegawMOD.Android.Device.State">
-            <summary>
-            Gets a value indicating the device's current state
-            </summary>
-            <remarks>See <see cref="T:RegawMOD.Android.DeviceState"/> for more details</remarks>
-        </member>
-        <member name="P:RegawMOD.Android.Device.HasRoot">
-            <summary>
-            Gets a value indicating if the device has root
-            </summary>
-        </member>
         <member name="T:RegawMOD.Android.AndroidController">
              <summary>
              Controls communication to and from connected Android devices.  Use only one instance for the entire project.
@@ -505,7 +505,7 @@
                      AndroidController android = AndroidController.Instance;
                      Device device;
                      string serialNumber;
-            
+                     
                      Console.WriteLine("Waiting For Device...");
             
                      // This will wait until a device is connected to the computer
@@ -519,20 +519,30 @@
                      device = android.GetConnectedDevice(serialNumber);
             
                      Console.WriteLine("Connected Device - {0}", device.SerialNumber);
-            
+                     
                      android.Dispose();
                  }
              }
-            
+             
             	// The example displays the following output:
             	//		Waiting For Device...
             	//		Connected Device - {serial # here}
              </code>
              </example>
         </member>
+        <member name="P:RegawMOD.Android.AndroidController.Instance">
+            <summary>
+            Gets the current AndroidController Instance.
+            </summary>
+        </member>
+        <member name="P:RegawMOD.Android.AndroidController.ConnectedDevices">
+            <summary>
+            Gets a <c>List&lt;string&gt;</c> object containing the serial numbers of all connected Android devices
+            </summary>
+        </member>
         <member name="M:RegawMOD.Android.AndroidController.Dispose">
             <summary>
-            Releases all resources used by <see cref="T:RegawMOD.Android.AndroidController"/>
+            Releases all resources used by <see cref="T:RegawMOD.Android.AndroidController"/>        
             </summary>
             <remarks>Needs to be called when application has finished using <see cref="T:RegawMOD.Android.AndroidController"/></remarks>
         </member>
@@ -550,22 +560,27 @@
             <param name="deviceSerial">Serial number of connected device</param>
             <returns><see cref="T:RegawMOD.Android.Device"/> containing info about the device with the serial number <paramref name="deviceSerial"/></returns>
         </member>
+        <member name="P:RegawMOD.Android.AndroidController.HasConnectedDevices">
+            <summary>
+            Gets a value indicating if there are any Android devices currently connected
+            </summary>
+        </member>
         <member name="M:RegawMOD.Android.AndroidController.IsDeviceConnected(System.String)">
-             <summary>
-             Determines if the Android device with the serial number provided is currently connected
-             </summary>
-             <example>The following example shows how to use <c>IsDeviceConnected(string deviceSerial)</c> in one of your programs
-             <code>
-             //This example demonstrates how to use IsDeviceConnected(string deviceSerial) in your project
-             //This example assumes there is an instance of AndroidController running named android.
+            <summary>
+            Determines if the Android device with the serial number provided is currently connected
+            </summary>
+            <example>The following example shows how to use <c>IsDeviceConnected(string deviceSerial)</c> in one of your programs
+            <code>
+            //This example demonstrates how to use IsDeviceConnected(string deviceSerial) in your project
+            //This example assumes there is an instance of AndroidController running named android.
             
-             string serialNumber = "HTC123456789";
+            string serialNumber = "HTC123456789";
             
-             bool currentlyConnected = android.IsDeviceConnected(serialNumber);
-             </code>
-             </example>
-             <param name="deviceSerial">Serial number of Android device</param>
-             <returns>A value indicating if the Android device with the serial number <paramref name="deviceSerial"/> is connected</returns>
+            bool currentlyConnected = android.IsDeviceConnected(serialNumber);
+            </code>
+            </example>
+            <param name="deviceSerial">Serial number of Android device</param>
+            <returns>A value indicating if the Android device with the serial number <paramref name="deviceSerial"/> is connected</returns>
         </member>
         <member name="M:RegawMOD.Android.AndroidController.IsDeviceConnected(RegawMOD.Android.Device)">
             <summary>
@@ -580,35 +595,30 @@
             </summary>
             <remarks>Call this before checking for Devices, or setting a new Device, for most updated results</remarks>
         </member>
+        <member name="P:RegawMOD.Android.AndroidController.CancelWait">
+            <summary>
+            Set to true to cancel a WaitForDevice() method call
+            </summary>
+        </member>
         <member name="M:RegawMOD.Android.AndroidController.WaitForDevice">
             <summary>
             Pauses thread until 1 or more Android devices are connected
             </summary>
             <remarks>Do Not Use in Windows Forms applications, as this method pauses the current thread.  Works fine in Console Applications</remarks>
         </member>
-        <member name="P:RegawMOD.Android.AndroidController.Instance">
-            <summary>
-            Gets the current AndroidController Instance.
-            </summary>
-        </member>
-        <member name="P:RegawMOD.Android.AndroidController.ConnectedDevices">
-            <summary>
-            Gets a <c>List&lt;string&gt;</c> object containing the serial numbers of all connected Android devices
-            </summary>
-        </member>
-        <member name="P:RegawMOD.Android.AndroidController.HasConnectedDevices">
-            <summary>
-            Gets a value indicating if there are any Android devices currently connected
-            </summary>
-        </member>
-        <member name="P:RegawMOD.Android.AndroidController.CancelWait">
-            <summary>
-            Set to true to cancel a WaitForDevice() method call
-            </summary>
-        </member>
         <member name="T:RegawMOD.Android.BuildProp">
             <summary>
             Manages all information from connected Android device's build properties
+            </summary>
+        </member>
+        <member name="P:RegawMOD.Android.BuildProp.Keys">
+            <summary>
+            Gets a <c>List&lt;string&gt;</c> containing all of the device's build proprty keys
+            </summary>
+        </member>
+        <member name="P:RegawMOD.Android.BuildProp.Values">
+            <summary>
+            Gets a <c>List&lt;string&gt;</c> object containing all of the device's build proprty values
             </summary>
         </member>
         <member name="M:RegawMOD.Android.BuildProp.GetProp(System.String)">
@@ -633,34 +643,6 @@
             </summary>
             <returns>Formatted string containing build.prop</returns>
         </member>
-        <member name="P:RegawMOD.Android.BuildProp.Keys">
-            <summary>
-            Gets a <c>List&lt;string&gt;</c> containing all of the device's build proprty keys
-            </summary>
-        </member>
-        <member name="P:RegawMOD.Android.BuildProp.Values">
-            <summary>
-            Gets a <c>List&lt;string&gt;</c> object containing all of the device's build proprty values
-            </summary>
-        </member>
-        <member name="M:RegawMOD.Extract.Resources(System.Object,System.String,System.String,System.String[])">
-            <summary>
-            Extracts Multiple Embedded Resources From Calling Assembly
-            </summary>
-            <param name="obj">Object To Derive Default Namespace From</param>
-            <param name="internalFolderPath">Period . Delimited path of embedded resources in assembly</param>
-            <param name="fullPathOfItems">Exact Names Of Embedded Resources to Extract</param>
-            <param name="outDirectory">Full Directory of Path For Extracted Resources</param>
-        </member>
-        <member name="M:RegawMOD.Extract.Resources(System.String,System.String,System.String,System.String[])">
-            <summary>
-            Extracts Multiple Embedded Resources From Calling Assembly
-            </summary>
-            <param name="nameSpace">Namespace of calling assembly</param>
-            <param name="outDirectory">Full Directory of Path For Extracted Resources</param>
-            <param name="internalFolderPath">Period . Delimited path of embedded resources in assembly</param>
-            <param name="fullPathOfItems">Exact Names Of Embedded Resources to Extract</param>
-        </member>
         <member name="T:RegawMOD.Android.FastbootCommand">
             <summary>
             Holds formatted commands to execute through <see cref="T:RegawMOD.Android.Fastboot"/>
@@ -680,42 +662,42 @@
             </summary>
         </member>
         <member name="M:RegawMOD.Android.Fastboot.FormFastbootCommand(System.String,System.String[])">
-             <summary>
-             Forms a <see cref="T:RegawMOD.Android.FastbootCommand"/> that is passed to <c>Fastboot.ExecuteFastbootCommand()</c>
-             </summary>
-             <param name="command">The fastboot command to run</param>
-             <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
-             <returns><see cref="T:RegawMOD.Android.FastbootCommand"/> that contains formatted command information</returns>
-             <remarks>Should be used only for non device-specific fastboot commands such as <c>fastboot devices</c> or <c>fastboot version</c></remarks>
-             <example>This example demonstrates how to create a non device-specific <see cref="T:RegawMOD.Android.FastbootCommand"/>
-             <code>//This example shows how to create a non device-specific FastbootCommand
-             //This demonstarates the fastboot command "fastboot devices"
-             //Notice how you do not include the "fastboot" executable in the method, as the method takes care of it internally
+            <summary>
+            Forms a <see cref="T:RegawMOD.Android.FastbootCommand"/> that is passed to <c>Fastboot.ExecuteFastbootCommand()</c>
+            </summary>
+            <param name="command">The fastboot command to run</param>
+            <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
+            <returns><see cref="T:RegawMOD.Android.FastbootCommand"/> that contains formatted command information</returns>
+            <remarks>Should be used only for non device-specific fastboot commands such as <c>fastboot devices</c> or <c>fastboot version</c></remarks>
+            <example>This example demonstrates how to create a non device-specific <see cref="T:RegawMOD.Android.FastbootCommand"/>
+            <code>//This example shows how to create a non device-specific FastbootCommand
+            //This demonstarates the fastboot command "fastboot devices"
+            //Notice how you do not include the "fastboot" executable in the method, as the method takes care of it internally
             
-             FastbootCommand fbCmd = Fastboot.FormFastbootCommand("devices");
+            FastbootCommand fbCmd = Fastboot.FormFastbootCommand("devices");
             
-             </code>
-             </example>
+            </code>
+            </example>
         </member>
         <member name="M:RegawMOD.Android.Fastboot.FormFastbootCommand(RegawMOD.Android.Device,System.String,System.String[])">
-             <summary>
-             Forms a <see cref="T:RegawMOD.Android.FastbootCommand"/> that is passed to <c>Fastboot.ExecuteFastbootCommand()</c>
-             </summary>
-             <remarks>Should be used only for device-specific fastboot commands such as <c>fastboot reboot</c> or <c>fastboot getvar all</c></remarks>
-             <param name="device">Specific <see cref="T:RegawMOD.Android.Device"/> to run the comand on</param>
-             <param name="command">The command to run on fastboot</param>
-             <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
-             <returns><see cref="T:RegawMOD.Android.FastbootCommand"/> that contains formatted command information</returns>
-             <example>This example demonstrates how to create a non device-specific <see cref="T:RegawMOD.Android.FastbootCommand"/>
-             <code>//This example shows how to create a device-specific FastbootCommand
-             //This demonstarates the fastboot command "fastboot flash zip C:\rom.zip"
-             //Notice how you do not include the "fastboot" executable in the method, as the method takes care of it internally
-             //This example also assumes there is an instance of Device named device
+            <summary>
+            Forms a <see cref="T:RegawMOD.Android.FastbootCommand"/> that is passed to <c>Fastboot.ExecuteFastbootCommand()</c>
+            </summary>
+            <remarks>Should be used only for device-specific fastboot commands such as <c>fastboot reboot</c> or <c>fastboot getvar all</c></remarks>
+            <param name="device">Specific <see cref="T:RegawMOD.Android.Device"/> to run the comand on</param>
+            <param name="command">The command to run on fastboot</param>
+            <param name="args">Any arguments that need to be sent to <paramref name="command"/></param>
+            <returns><see cref="T:RegawMOD.Android.FastbootCommand"/> that contains formatted command information</returns>
+            <example>This example demonstrates how to create a non device-specific <see cref="T:RegawMOD.Android.FastbootCommand"/>
+            <code>//This example shows how to create a device-specific FastbootCommand
+            //This demonstarates the fastboot command "fastboot flash zip C:\rom.zip"
+            //Notice how you do not include the "fastboot" executable in the method, as the method takes care of it internally
+            //This example also assumes there is an instance of Device named device
             
-             FastbootComand fbCmd = Fastboot.FormFastbootCommand(device, "flash", @"zip C:\rom.zip");
+            FastbootComand fbCmd = Fastboot.FormFastbootCommand(device, "flash", @"zip C:\rom.zip");
             
-             </code>
-             </example>
+            </code>
+            </example>
         </member>
         <member name="M:RegawMOD.Android.Fastboot.ExecuteFastbootCommand(RegawMOD.Android.FastbootCommand)">
             <summary>
@@ -757,6 +739,12 @@
             Contains information about the Android device's file system
             </summary>
         </member>
+        <member name="P:RegawMOD.Android.FileSystem.SystemMountInfo">
+            <summary>
+            Gets the <see cref="T:RegawMOD.Android.MountInfo"/> containing information about the /system mount directory
+            </summary>
+            <remarks>See <see cref="T:RegawMOD.Android.MountInfo"/> for more details</remarks>
+        </member>
         <member name="M:RegawMOD.Android.FileSystem.RemountSystem(RegawMOD.Android.MountType)">
              <summary>
              Mounts connected Android device's file system as specified
@@ -768,14 +756,14 @@
              // This example demonstrates mounting the Android device's file system as Read-Writable
              using System;
              using RegawMOD.Android;
-            
+             
              class Program
              {
                  static void Main(string[] args)
                  {
                      AndroidController android = AndroidController.Instance;
                      Device device;
-            
+                     
                      Console.WriteLine("Waiting For Device...");
                      android.WaitForDevice(); //This will wait until a device is connected to the computer
                      device = android.ConnectedDevices[0]; //Sets device to the first Device in the collection
@@ -786,7 +774,7 @@
                  	Console.WriteLine("Mount success? - {0}", device.RemountSystem(MountType.RW));
                  }
              }
-            
+             
             	// The example displays the following output (if mounting is successful):
             	//		Waiting For Device...
             	//		Connected Device - {serial # here}
@@ -803,13 +791,6 @@
             <returns>See <see cref="T:RegawMOD.Android.ListingType"/></returns>
             <remarks><para>Requires a device containing BusyBox for now, returns ListingType.ERROR if not installed.</para>
             <para>Returns ListingType.NONE if file/Directory does not exist</para></remarks>
-        </member>
-        <!-- Badly formed XML comment ignored for member "M:RegawMOD.Android.FileSystem.GetFilesAndDirectories(System.String)" -->
-        <member name="P:RegawMOD.Android.FileSystem.SystemMountInfo">
-            <summary>
-            Gets the <see cref="T:RegawMOD.Android.MountInfo"/> containing information about the /system mount directory
-            </summary>
-            <remarks>See <see cref="T:RegawMOD.Android.MountInfo"/> for more details</remarks>
         </member>
         <member name="T:RegawMOD.Android.ListingType">
             <summary>
@@ -859,6 +840,16 @@
         <member name="F:RegawMOD.Android.DeviceState.FASTBOOT">
             <summary>
             <see cref="T:RegawMOD.Android.Device"/> is in fastboot
+            </summary>
+        </member>
+        <member name="F:RegawMOD.Android.DeviceState.SIDELOAD">
+            <summary>
+            <see cref="T:RegawMOD.Android.Device"/> is in sideload mode
+            </summary>
+        </member>
+        <member name="F:RegawMOD.Android.DeviceState.UNAUTHORIZED">
+            <summary>
+            <see cref="T:RegawMOD.Android.Device"/> is not authorized
             </summary>
         </member>
         <member name="F:RegawMOD.Android.DeviceState.UNKNOWN">
@@ -1365,24 +1356,51 @@
             </summary>
             <remarks>Only created and called internally</remarks>
         </member>
+        <member name="T:RegawMOD.Android.Su">
+            <summary>
+            Contains information about the Su binary on the Android device
+            </summary>
+        </member>
+        <member name="P:RegawMOD.Android.Su.Version">
+            <summary>
+            Gets a value indicating the version of Su on the Android device
+            </summary>
+        </member>
+        <member name="T:RegawMOD.Android.Signer">
+            <summary>
+            Digitally signs files
+            </summary>
+        </member>
+        <member name="M:RegawMOD.Android.Signer.SignUpdateZip(System.String)">
+            <summary>
+            Signs an Update.zip with test keys to flash on an Android device
+            </summary>
+            <param name="unsigned">Full path to unsigned update.zip</param>
+            <returns>True if successful, false if file <paramref name="unsigned"/> does not exist or if file <paramref name="unsigned"/> is not a zip</returns>
+            <remarks><para>Outputs signed zip in same directory as unsigned zip</para></remarks>
+        </member>
+        <member name="M:RegawMOD.Extract.Resources(System.Object,System.String,System.String,System.String[])">
+            <summary>
+            Extracts Multiple Embedded Resources From Calling Assembly
+            </summary>
+            <param name="obj">Object To Derive Default Namespace From</param>
+            <param name="internalFolderPath">Period . Delimited path of embedded resources in assembly</param>
+            <param name="fullPathOfItems">Exact Names Of Embedded Resources to Extract</param>
+            <param name="outDirectory">Full Directory of Path For Extracted Resources</param>
+        </member>
+        <member name="M:RegawMOD.Extract.Resources(System.String,System.String,System.String,System.String[])">
+            <summary>
+            Extracts Multiple Embedded Resources From Calling Assembly
+            </summary>
+            <param name="nameSpace">Namespace of calling assembly</param>
+            <param name="outDirectory">Full Directory of Path For Extracted Resources</param>
+            <param name="internalFolderPath">Period . Delimited path of embedded resources in assembly</param>
+            <param name="fullPathOfItems">Exact Names Of Embedded Resources to Extract</param>
+        </member>
         <member name="T:RegawMOD.Java">
             <summary>
             Contains information about the current machine's Java installation
             </summary>
-        </member>
-        <member name="M:RegawMOD.Java.Update">
-            <summary>
-            Updates the information stored in the <see cref="T:RegawMOD.Java"/> class
-            </summary>
-            <remarks>Generally called if Java installation might have changed</remarks>
-        </member>
-        <member name="M:RegawMOD.Java.RunJar(System.String,System.String[])">
-            <summary>
-            Runs the specified Jar file with the specified arguments
-            </summary>
-            <param name="pathToJar">Full path the Jar file on local machine</param>
-            <param name="arguments">Arguments to pass to the Jar at runtime</param>
-            <returns>True if successful run, false if Java is not installed or the Jar does not exist</returns>
         </member>
         <member name="P:RegawMOD.Java.IsInstalled">
             <summary>
@@ -1409,66 +1427,57 @@
             Gets a value indicating the path to Javac.exe on the local machine
             </summary>
         </member>
+        <member name="M:RegawMOD.Java.Update">
+            <summary>
+            Updates the information stored in the <see cref="T:RegawMOD.Java"/> class
+            </summary>
+            <remarks>Generally called if Java installation might have changed</remarks>
+        </member>
+        <member name="M:RegawMOD.Java.RunJar(System.String,System.String[])">
+            <summary>
+            Runs the specified Jar file with the specified arguments
+            </summary>
+            <param name="pathToJar">Full path the Jar file on local machine</param>
+            <param name="arguments">Arguments to pass to the Jar at runtime</param>
+            <returns>True if successful run, false if Java is not installed or the Jar does not exist</returns>
+        </member>
         <member name="F:RegawMOD.Command.DEFAULT_TIMEOUT">
             <summary>
             The default timeout for commands. -1 implies infinite time
             </summary>
         </member>
-        <member name="T:RegawMOD.Android.Su">
-            <summary>
-            Contains information about the Su binary on the Android device
-            </summary>
-        </member>
-        <member name="P:RegawMOD.Android.Su.Version">
-            <summary>
-            Gets a value indicating the version of Su on the Android device
-            </summary>
-        </member>
-        <member name="T:RegawMOD.Android.Signer">
-            <summary>
-            Digitally signs files
-            </summary>
-        </member>
-        <member name="M:RegawMOD.Android.Signer.SignUpdateZip(System.String)">
-            <summary>
-            Signs an Update.zip with test keys to flash on an Android device
-            </summary>
-            <param name="unsigned">Full path to unsigned update.zip</param>
-            <returns>True if successful, false if file <paramref name="unsigned"/> does not exist or if file <paramref name="unsigned"/> is not a zip</returns>
-            <remarks><para>Outputs signed zip in same directory as unsigned zip</para></remarks>
-        </member>
         <member name="T:RegawMOD.ResourceFolderManager">
-             <summary>
-             Controls Resource Folders for the <see cref="N:RegawMOD"/> Namespace
-             </summary>
-             <remarks><para>You can use this in your own programs to have a managed resource folder to extract your own files/write data to.</para>
-             <para>Calling Unregister() deletes the directory and everything recursively in it, and removes unregisters the directory in the manager.</para></remarks>
-             <example><para>This example shows how to register a new directory with the <see cref="T:RegawMOD.ResourceFolderManager"/>, and create a .txt file in the folder.</para>
-             <code>//This example shows how to register a new directory named "Testing" and create a file in the folder named "Test1.txt".
+            <summary>
+            Controls Resource Folders for the <see cref="N:RegawMOD"/> Namespace
+            </summary>
+            <remarks><para>You can use this in your own programs to have a managed resource folder to extract your own files/write data to.</para>
+            <para>Calling Unregister() deletes the directory and everything recursively in it, and removes unregisters the directory in the manager.</para></remarks>
+            <example><para>This example shows how to register a new directory with the <see cref="T:RegawMOD.ResourceFolderManager"/>, and create a .txt file in the folder.</para>
+            <code>//This example shows how to register a new directory named "Testing" and create a file in the folder named "Test1.txt".
             
-             using System;
-             using System.IO;
-             using RegawMOD;
+            using System;
+            using System.IO;
+            using RegawMOD;
             
-             class Program
-             {
-                 static void Main(string[] args)
-                 {
-                     // Registers "Testing" with the manager
-                     ResourceFolderManager.Register("Testing");
-            
-                     // Creates file in the "Testing" folder
-                     using (StreamWriter w = new StreamWriter(ResourceFolderManager.GetRegisteredFolderPath("Testing") + "Test1.txt"))
-                     {
-                         w.WriteLine("This is a test file about to be deleted by ResourceFolderManager.Unregister(\"Testing\")");
-                     }
-            
-                     // Removes folder from memory and file system, including all contents
-                     ResourceFolderManager.Unregister("Testing");
-                 }
-             }
-             </code>
-             </example>
+            class Program
+            {
+                static void Main(string[] args)
+                {
+                    // Registers "Testing" with the manager
+                    ResourceFolderManager.Register("Testing");
+                    
+                    // Creates file in the "Testing" folder
+                    using (StreamWriter w = new StreamWriter(ResourceFolderManager.GetRegisteredFolderPath("Testing") + "Test1.txt"))
+                    {
+                        w.WriteLine("This is a test file about to be deleted by ResourceFolderManager.Unregister(\"Testing\")");
+                    }
+                    
+                    // Removes folder from memory and file system, including all contents
+                    ResourceFolderManager.Unregister("Testing");
+                }
+            }
+            </code>
+            </example>
         </member>
         <member name="M:RegawMOD.ResourceFolderManager.GetRegisteredFolder(System.String)">
             <summary>
@@ -1493,7 +1502,7 @@
         </member>
         <member name="M:RegawMOD.ResourceFolderManager.Unregister(System.String)">
             <summary>
-            Unregisters and removes the temporary resource directory defined in <paramref name="name"/> recursively
+            Unregisters and removes the temporary resource directory defined in <paramref name="name"/> recursively 
             </summary>
             <param name="name">Name of resource directory to unregister</param>
             <returns>True if deletion succeeds, false if not</returns>

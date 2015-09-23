@@ -11,6 +11,17 @@
             <RoutedCommand x:Key="TogglePhoneCommand" />
             <RoutedCommand x:Key="ToggleLogCommand" />
             <RoutedCommand x:Key="SaveLogCommand" />
+            <Style x:Key="ContainerStyle" TargetType="{x:Type GroupItem}">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Expander Header="{Binding Name}" IsExpanded="False">
+                                <ItemsPresenter />
+                            </Expander>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
         </ResourceDictionary>
     </Controls:MetroWindow.Resources>
     <Grid HorizontalAlignment="Left"  Width="478">
@@ -63,7 +74,7 @@
                         <Grid HorizontalAlignment="Left" Height="120" VerticalAlignment="Top" Width="153" Margin="-6,-23,-6,-6">
                             <Button Name="flashKernelButton" Content="Flash Kernel" HorizontalAlignment="Center" VerticalAlignment="Top" Width="135" Margin="8,26,10,0" Click="flashKernelButton_Click" />
                             <Button Name="flashRecoveryButton" Content="Flash Recovery" HorizontalAlignment="Center" Margin="8,56,10,0" VerticalAlignment="Top" Width="135" Click="flashRecoveryButton_Click" />
-                            <Button Name="sideloadROMButton" Content="Sideload ROM" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="sideloadROMButton_Click" />
+                            <Button Name="sideloadROMButton" Content="Sideload ZIP" HorizontalAlignment="Center" Margin="8,86,10,0" VerticalAlignment="Top" Width="135" Click="sideloadROMButton_Click" />
                         </Grid>
                     </GroupBox>
                     <GroupBox Header="Commands" HorizontalAlignment="Right" Margin="0,5,0,0" VerticalAlignment="Top" Height="130" Width="150">
@@ -144,101 +155,15 @@
         <Controls:FlyoutsControl>
             <Controls:Flyout Name = "Settings2" Position="Top" Height="259" Theme="Accent">
                 <StackPanel Margin="10" VerticalAlignment="Stretch">
-                    <ListBox Name="phoneListBox" Height="178" Margin="-25,25,5,0" SelectionChanged="phoneListBox_SelectionChanged" ScrollViewer.VerticalScrollBarVisibility="Visible">
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Amaze</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Android One</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Butterfly</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Butterfly 2</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Butterfly S</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 200</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 300</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 500</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 510</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 601</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 610</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 616</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 816</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire 820</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire C</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire Eye</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire HD</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire S</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire SV</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire V</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Desire X</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid DNA</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible 2</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible 4G LTE</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Droid Incredible S</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO 3D</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO 4G</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO 4G LTE</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO Design</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">EVO Shift 4G</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Explorer</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">First</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Find 5</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Find 7/7a</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">G Watch</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">G Watch R</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Galaxy Nexus</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Gear Live</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Mi 3</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto 360</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto E</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto E (2015)</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto G</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto G (2014)</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto Maxx</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto X</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Moto X (2014)</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">myTouch 4G Slide</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 4</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 5</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 6</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 7 (2012)</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 7 (2013)</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 9</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus 10</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus Player</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Nexus S</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One E8</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One J</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M7</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M7 (Dual SIM)</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M8</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One M9</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One Max</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One Mini</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One Mini 2</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One S</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One SV</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One V</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One VX</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One X</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">One X+</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">OnePlus One</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Oppo N1</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Oppo N3</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Oppo R819</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Photon Q</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Redmi 1S</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Redmi Note</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Rezound</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Sensation</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Sensation XL</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Shield</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Shield Tablet</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Smartwatch 3</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Tegra Note 7</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Vivid</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Wildfire</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Wildfire S</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">XOLO Q1010i</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">Xoom</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">YU Yureka</ListBoxItem>
-                        <ListBoxItem FontWeight="SemiBold" FontSize="16">None</ListBoxItem>
+                    <ListBox Name="phoneListBox" Height="178" Margin="-25,25,5,0" SelectionChanged="phoneListBox_SelectionChanged" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="False">
+                        <ListBox.GroupStyle>
+                            <GroupStyle ContainerStyle="{StaticResource ContainerStyle}"/>
+                        </ListBox.GroupStyle>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"/>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
                     </ListBox>
                     <TextBlock Name="PhoneTextBox" FontSize="15" Margin="-30,14,0,0" Text='Current Device: ' FontWeight="SemiBold" TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
                 </StackPanel>
