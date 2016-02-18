@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5F92F16-C783-4B17-B725-B06F1D725B9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RegawMOD.Android</RootNamespace>
+    <AssemblyName>AndroidLib</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\AndroidLib.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AAPT\AAPT.cs" />
+    <Compile Include="Classes\AAPT\AAPT.Dump.cs" />
+    <Compile Include="Classes\AndroidController\Adb.cs" />
+    <Compile Include="Classes\AndroidController\BusyBox.cs" />
+    <Compile Include="Classes\AndroidController\BatteryInfo.cs" />
+    <Compile Include="Classes\AndroidController\Device.cs" />
+    <Compile Include="Classes\AndroidController\AndroidController.cs" />
+    <Compile Include="Classes\AndroidController\BuildProp.cs" />
+    <Compile Include="Classes\Util\Extract.cs" />
+    <Compile Include="Classes\Util\Hasher.cs" />
+    <Compile Include="Classes\AndroidController\Fastboot.cs" />
+    <Compile Include="Classes\AndroidController\FileSystem.cs" />
+    <Compile Include="Classes\AndroidController\Enums.cs" />
+    <Compile Include="Classes\AndroidController\Phone.cs" />
+    <Compile Include="Classes\AndroidController\Exceptions.cs" />
+    <Compile Include="Classes\Util\Java.cs" />
+    <Compile Include="Classes\Util\Logger.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Util\Util.cs" />
+    <Compile Include="Classes\Util\Command.cs" />
+    <Compile Include="Classes\AndroidController\Su.cs" />
+    <Compile Include="Classes\Signer\Signer.cs" />
+    <Compile Include="Classes\Util\ResourceFolderManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Other\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Signer\testkey.pk8" />
+    <EmbeddedResource Include="Resources\Signer\testkey.x509.pem" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Signer\signapk.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AAPT\aapt.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AndroidController\adb.exe" />
+    <EmbeddedResource Include="Resources\AndroidController\AdbWinApi.dll" />
+    <EmbeddedResource Include="Resources\AndroidController\AdbWinUsbApi.dll" />
+    <EmbeddedResource Include="Resources\AndroidController\fastboot.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

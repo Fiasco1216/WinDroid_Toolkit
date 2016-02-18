@@ -1,0 +1,78 @@
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\WinDroid Android Toolkit.exe.config
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\WinDroid Android Toolkit.exe
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\WinDroid Android Toolkit.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\AndroidLib.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\MahApps.Metro.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\MaterialDesignColors.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\MaterialDesignThemes.MahApps.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\System.Windows.Interactivity.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\AndroidLib.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\AutoUpdater.NET.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\AutoUpdater.NET.xml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\MahApps.Metro.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\MahApps.Metro.xml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\bin\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\MainWindow.baml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\Resources\Icons.baml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\App.baml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\MainWindow.g.cs
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\Resources\Icons.g.cs
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\App.g.cs
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\WinDroid Android Toolkit_MarkupCompile.cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\WinDroid Android Toolkit.g.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\WinDroid_Android_Toolkit.Properties.Resources.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\WinDroid Android Toolkit.csproj.GenerateResource.Cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\WinDroid Android Toolkit.exe
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\WinDroid Toolkit\obj\Release\WinDroid Android Toolkit.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\WinDroid Android Toolkit.exe.config
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\WinDroid Android Toolkit.exe
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\WinDroid Android Toolkit.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\AndroidLib.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\MahApps.Metro.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\MaterialDesignColors.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\MaterialDesignThemes.MahApps.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\System.Windows.Interactivity.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\AndroidLib.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\AutoUpdater.NET.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\AutoUpdater.NET.xml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\MahApps.Metro.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\MahApps.Metro.xml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Android Toolkit.csprojResolveAssemblyReference.cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\MainWindow.baml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\Resources\Icons.baml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\App.baml
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\MainWindow.g.cs
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\Resources\Icons.g.cs
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\App.g.cs
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Android Toolkit_MarkupCompile.cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Android Toolkit.g.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid_Android_Toolkit.Properties.Resources.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Android Toolkit.csproj.GenerateResource.Cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Android Toolkit.exe
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Android Toolkit.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\bin\Release\WinDroid Toolkit.exe.config
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Toolkit.exe
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Android Toolkit\WinDroid Android Toolkit\obj\Release\WinDroid Toolkit.pdb

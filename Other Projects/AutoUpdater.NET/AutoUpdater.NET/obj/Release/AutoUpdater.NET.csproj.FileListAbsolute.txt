@@ -1,0 +1,183 @@
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\AutoUpdater.NET.XML
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\AutoUpdater.NET.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\bin\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdater.NET.csprojResolveAssemblyReference.cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.Properties.Resources.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdater.NET.csproj.GenerateResource.Cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\trunk\AutoUpdater.NET\obj\Release\AutoUpdater.NET.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\AutoUpdater.NET.XML
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\AutoUpdater.NET.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.csprojResolveAssemblyReference.cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.Properties.Resources.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.csproj.GenerateResource.Cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\AutoUpdater.NET.XML
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\AutoUpdater.NET.pdb
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\bin\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.csprojResolveAssemblyReference.cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.Properties.Resources.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.DownloadUpdateDialog.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.RemindLaterForm.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.da.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.de.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.es.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.fr.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.it-IT.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.nl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.pl.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.ru.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.sv.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdaterDotNET.UpdateForm.tr-TR.resources
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.csproj.GenerateResource.Cache
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\da\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\de\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\es\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\fr\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\it-IT\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\nl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\pl\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\ru\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\sv\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\tr-TR\AutoUpdater.NET.resources.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.dll
+C:\Users\windy\OneDrive\Documents\Visual Studio 2015\Projects\WinDroid Toolkit\Other Projects\AutoUpdater.NET\AutoUpdater.NET\obj\Release\AutoUpdater.NET.pdb
