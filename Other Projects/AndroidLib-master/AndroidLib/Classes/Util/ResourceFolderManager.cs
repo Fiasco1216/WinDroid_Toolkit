@@ -45,7 +45,7 @@ namespace RegawMOD
 
         static ResourceFolderManager()
         {
-            REGAWMOD_TEMP_DIRECTORY = new DirectoryInfo(Path.GetTempPath() + "\\RegawMOD\\");
+            REGAWMOD_TEMP_DIRECTORY = new DirectoryInfo(Path.GetTempPath() + "\\WinDroid\\");
             controlledFolders = new Dictionary<string, DirectoryInfo>();
 
             if (!REGAWMOD_TEMP_DIRECTORY.Exists)

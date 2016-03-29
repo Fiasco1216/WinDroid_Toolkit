@@ -417,21 +417,21 @@ namespace WinDroid_Toolkit
             Log.AddLogItem("Recovery download started.", "DOWNLOAD");
             if (variants == 1)
             {
-                await client3.DownloadFileTaskAsync(("https://s3.amazonaws.com/windroid/Devices/" + manufacturer + "/" + device + "/Recovery.img"), "./Data/Recoveries/Recovery1.img");
+                await client3.DownloadFileTaskAsync(("https://basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/" + manufacturer + "/" + device + "/Recovery.img"), "./Data/Recoveries/Recovery1.img");
                 client3.Dispose();
             }
             else if (variants == 2)
             {
-                await client2.DownloadFileTaskAsync(("https://s3.amazonaws.com/windroid/Devices/" + manufacturer + "/" + device + "/Recovery1.img"), "./Data/Recoveries/Recovery1.img");
-                await client3.DownloadFileTaskAsync(("https://s3.amazonaws.com/windroid/Devices/" + manufacturer + "/" + device + "/Recovery2.img"), "./Data/Recoveries/Recovery2.img");
+                await client2.DownloadFileTaskAsync(("https://basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/" + manufacturer + "/" + device + "/Recovery1.img"), "./Data/Recoveries/Recovery1.img");
+                await client3.DownloadFileTaskAsync(("https://basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/" + manufacturer + "/" + device + "/Recovery2.img"), "./Data/Recoveries/Recovery2.img");
                 client2.Dispose();
                 client3.Dispose();
             }
             else if (variants == 3)
             {
-                await client.DownloadFileTaskAsync(("https://s3.amazonaws.com/windroid/Devices/" + manufacturer + "/" + device + "/Recovery1.img"), "./Data/Recoveries/Recovery1.img");
-                await client2.DownloadFileTaskAsync(("https://s3.amazonaws.com/windroid/Devices/" + manufacturer + "/" + device + "/Recovery2.img"), "./Data/Recoveries/Recovery2.img");
-                await client3.DownloadFileTaskAsync(("https://s3.amazonaws.com/windroid/Devices/" + manufacturer + "/" + device + "/Recovery3.img"), "./Data/Recoveries/Recovery3.img");
+                await client.DownloadFileTaskAsync(("https://basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/" + manufacturer + "/" + device + "/Recovery1.img"), "./Data/Recoveries/Recovery1.img");
+                await client2.DownloadFileTaskAsync(("https://basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/" + manufacturer + "/" + device + "/Recovery2.img"), "./Data/Recoveries/Recovery2.img");
+                await client3.DownloadFileTaskAsync(("https://basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/" + manufacturer + "/" + device + "/Recovery3.img"), "./Data/Recoveries/Recovery3.img");
                 client.Dispose();
                 client2.Dispose();
                 client3.Dispose();
@@ -571,7 +571,7 @@ namespace WinDroid_Toolkit
             LogBaseSystemInfo();
 
             AutoUpdater.OpenDownloadPage = true;
-            AutoUpdater.Start("https://s3.amazonaws.com/windroid/Update/Update.xml");
+            AutoUpdater.Start("https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Updates/Update.xml");
             Log.AddLogItem("AutoUpdater started.", "UPDATE");
 
             if (!Directory.Exists("./Data"))
@@ -607,7 +607,7 @@ namespace WinDroid_Toolkit
                         switch (result)
                         {
                             case MessageDialogResult.Affirmative:
-                                await DownloadFile("Drivers", "https://s3.amazonaws.com/windroid/Drivers/UniversalDriver.msi", "./Data/Downloads/ADBDriver.msi");
+                                await DownloadFile("Drivers", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Drivers/UniversalDriver.msi", "./Data/Downloads/ADBDriver.msi");
                                 Process.Start(AppDomain.CurrentDomain.BaseDirectory + "/Data/Downloads/ADBDriver.msi");
                                 break;
 
@@ -3104,7 +3104,7 @@ namespace WinDroid_Toolkit
                                     else
                                     {
                                         Log.AddLogItem("Connected: Online.", "UNLOCK");
-                                        await DownloadFile("Xiaomi Unlock Program", "https://s3.amazonaws.com/windroid/Devices/Xiaomi/Unlock.zip", "./Data/Downloads/Unlock.zip");
+                                        await DownloadFile("Xiaomi Unlock Program", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Xiaomi/Unlock.zip", "./Data/Downloads/Unlock.zip");
                                         ZipFile.ExtractToDirectory("./Data/Downloads/Unlock.zip", "./Data/Downloads/UnlockXiaomi");
                                         File.Delete("./Data/Downloads/Unlock.zip");
                                         Log.AddLogItem("Xiaomi unlock zip deleted.", "UNLOCK");
@@ -3353,16 +3353,20 @@ namespace WinDroid_Toolkit
                                 {
                                     if (device == "ZenFone 2")
                                     {
-                                        await DownloadFile("ZenFone 2 Unlock Program", "https://s3.amazonaws.com/windroid/Devices/Asus/ZenFone_2/Unlock.zip", "./Data/Downloads/Unlock.zip");
+                                        await DownloadFile("ZenFone 2 Unlock Program", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Asus/ZenFone_2/Unlock.zip", "./Data/Downloads/Unlock.zip");
+                                        ZipFile.ExtractToDirectory("./Data/Downloads/Unlock.zip", "./");
+                                        File.Delete("./Data/Downloads/Unlock.zip");
+                                        Log.AddLogItem("ZenFone unlock zip deleted.", "UNLOCK");
+                                        Process.Start(AppDomain.CurrentDomain.BaseDirectory + "/Unlock.bat");
                                     }
                                     else if (device == "ZenFone 5" || device == "ZenFone 6")
                                     {
-                                        await DownloadFile("ZenFone 5/6 Unlock Program", "https://s3.amazonaws.com/windroid/Devices/Asus/ZenFone_5/Unlock.zip", "./Data/Downloads/Unlock.zip");
+                                        await DownloadFile("ZenFone 5/6 Unlock Program", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Asus/ZenFone_5/Unlock.zip", "./Data/Downloads/Unlock.zip");
+                                        ZipFile.ExtractToDirectory("./Data/Downloads/Unlock.zip", "./Data/Downloads/UnlockAsus");
+                                        File.Delete("./Data/Downloads/Unlock.zip");
+                                        Log.AddLogItem("ZenFone unlock zip deleted.", "UNLOCK");
+                                        Process.Start(AppDomain.CurrentDomain.BaseDirectory + "/Data/Downloads/UnlockAsus/Unlock.bat");
                                     }
-                                    ZipFile.ExtractToDirectory("./Data/Downloads/Unlock.zip", "./Data/Downloads/UnlockAsus");
-                                    File.Delete("./Data/Downloads/Unlock.zip");
-                                    Log.AddLogItem("ZenFone unlock zip deleted.", "UNLOCK");
-                                    Process.Start(AppDomain.CurrentDomain.BaseDirectory + "/Data/Downloads/UnlockAsus/Unlock.bat");
                                     Log.AddLogItem("ZenFone unlock program opened.", "UNLOCK");
                                 }
                             }
@@ -3401,16 +3405,16 @@ namespace WinDroid_Toolkit
                                     var result2 = await this.ShowMessageAsync("Device Check!", "Which version of the ZenFone Laser do you have?", MessageDialogStyle.AffirmativeAndNegative, mySettings2);
                                     if (result2 == MessageDialogResult.Affirmative)
                                     {
-                                        await DownloadFile("ZenFone Laser ZE550KL Unlock App", "https://s3.amazonaws.com/windroid/Devices/Asus/ZenFone_Laser/ZE550KL_Unlock.apk", "./Data/Downloads/Unlock.apk");
+                                        await DownloadFile("ZenFone Laser ZE550KL Unlock App", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Asus/ZenFone_Laser/ZE550KL_Unlock.apk", "./Data/Downloads/Unlock.apk");
                                     }
                                     else if (result2 == MessageDialogResult.Negative)
                                     {
-                                        await DownloadFile("ZenFone Laser ZE551KL Unlock App", "https://s3.amazonaws.com/windroid/Devices/Asus/ZenFone_Laser/ZE551KL_Unlock.apk", "./Data/Downloads/Unlock.apk");
+                                        await DownloadFile("ZenFone Laser ZE551KL Unlock App", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Asus/ZenFone_Laser/ZE551KL_Unlock.apk", "./Data/Downloads/Unlock.apk");
                                     }
                                 }
                                 else if (device == "ZenFone Selfie")
                                 {
-                                    await DownloadFile("ZenFone Selfie Unlock App", "https://s3.amazonaws.com/windroid/Devices/Asus/ZenFone_Selfie/Selfie_Unlock.apk", "./Data/Downloads/Unlock.apk");
+                                    await DownloadFile("ZenFone Selfie Unlock App", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Asus/ZenFone_Selfie/Selfie_Unlock.apk", "./Data/Downloads/Unlock.apk");
                                 }
                                 var controller = await this.ShowProgressAsync("Waiting For Device...", "");
                                 controller.SetIndeterminate();
@@ -3880,13 +3884,13 @@ namespace WinDroid_Toolkit
                                 {
                                     if (device == "G Watch" || device == "G Watch R" || device == "Gear Live" || device == "Watch" || device == "Moto 360" || device == "SmartWatch 3" || device == "Watch Urbane" || device == "ZenWatch")
                                     {
-                                        await DownloadFile("SuperSU", "https://s3.amazonaws.com/windroid/Root/WearSuperSU.zip", "./Data/Downloads/SuperSU.zip");
+                                        await DownloadFile("SuperSU", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Root/WearSuperSU.zip", "./Data/Downloads/SuperSU.zip");
                                         Log.AddLogItem("Wear SuperSU pushing started.", "ROOT");
                                         SuperSU();
                                     }
                                     else
                                     {
-                                        await DownloadFile("SuperSU", "https://s3.amazonaws.com/windroid/Root/SuperSU.zip", "./Data/Downloads/SuperSU.zip");
+                                        await DownloadFile("SuperSU", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Root/SuperSU.zip", "./Data/Downloads/SuperSU.zip");
                                         Log.AddLogItem("SuperSU pushing started.", "ROOT");
                                         SuperSU();
                                     }
@@ -4002,25 +4006,25 @@ namespace WinDroid_Toolkit
                 };
 
                 var device = Settings.Default["Device"].ToString();
-                await DownloadFile("SuperSU", "https://s3.amazonaws.com/windroid/Root/SuperSU.zip", "./Data/Downloads/SuperSU.zip");
-                await DownloadFile("DRMRestore", "https://s3.amazonaws.com/windroid/Devices/Sony/Xperia_Z5/DRMRestore.zip", "./Data/Downloads/DRMRestore.zip");
+                await DownloadFile("SuperSU", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Root/SuperSU.zip", "./Data/Downloads/SuperSU.zip");
+                await DownloadFile("DRMRestore", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Xperia_Z5/DRMRestore.zip", "./Data/Downloads/DRMRestore.zip");
                 switch (Settings.Default["Device"].ToString())
                 {
                     case "Xperia Z5":
                         {
-                            await DownloadFile("Root Image", "https://s3.amazonaws.com/windroid/Devices/Sony/Xperia_Z5/Root.img", "./Data/Downloads/Root.img");
+                            await DownloadFile("Root Image", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Sony/Xperia_Z5/Root.img", "./Data/Downloads/Root.img");
                         }
                         break;
 
                     case "Xperia Z5 Compact":
                         {
-                            await DownloadFile("Root Image", "https://s3.amazonaws.com/windroid/Devices/Sony/Xperia_Z5_Compact/Root.img", "./Data/Downloads/Root.img");
+                            await DownloadFile("Root Image", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Sony/Xperia_Z5_Compact/Root.img", "./Data/Downloads/Root.img");
                         }
                         break;
 
                     case "Xperia Z5 Premium":
                         {
-                            await DownloadFile("Root Image", "https://s3.amazonaws.com/windroid/Devices/Sony/Xperia_Z5_Premium/Root.img", "./Data/Downloads/Root.img");
+                            await DownloadFile("Root Image", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Sony/Xperia_Z5_Premium/Root.img", "./Data/Downloads/Root.img");
                         }
                         break;
                 }
@@ -4090,11 +4094,11 @@ namespace WinDroid_Toolkit
                 var device = Settings.Default["Device"].ToString();
                 if (device == "Nexus Player")
                 {
-                    await DownloadFile("Nexus Player Root Image", "https://s3.amazonaws.com/windroid/Devices/Google/Nexus_Player/Root.img", "./Root.img");
+                    await DownloadFile("Nexus Player Root Image", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Google/Nexus_Player/Root.img", "./Root.img");
                 }
                 else if (device == "ZenFone Laser")
                 {
-                    await DownloadFile("ZenFone Laser Root Image", "https://s3.amazonaws.com/windroid/Devices/Asus/ZenFone_Laser/Root.img", "./Root.img");
+                    await DownloadFile("ZenFone Laser Root Image", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Devices/Asus/ZenFone_Laser/Root.img", "./Root.img");
                 }
                 Log.AddLogItem("Connected: Fastboot.", "ROOT");
                 var controller2 = await this.ShowProgressAsync("Flashing Root.img...", "");
@@ -4108,7 +4112,7 @@ namespace WinDroid_Toolkit
                 await Task.Run(() => Fastboot.ExecuteFastbootCommandNoReturn(Fastboot.FormFastbootCommand(_device, "reboot")));
                 await Task.Run(() => _android.WaitForDevice());
                 await controller3.CloseAsync();
-                await DownloadFile("SuperSU", "https://s3.amazonaws.com/windroid/Root/SuperSU.zip", "./Data/Downloads/SuperSU.zip");
+                await DownloadFile("SuperSU", "https://s.basketbuild.com/dl/devs?dl=WindyCityRockr/WinDroid_Toolkit/Root/SuperSU.zip", "./Data/Downloads/SuperSU.zip");
                 SuperSU();
                 Log.AddLogItem("SuperSU pushing started.", "ROOT");
 

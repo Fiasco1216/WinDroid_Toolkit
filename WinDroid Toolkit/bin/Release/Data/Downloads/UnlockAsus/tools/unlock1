@@ -1,0 +1,4 @@
+#/sbin/sh
+
+chmod 777 /tmp/unlock
+/tmp/unlock &
